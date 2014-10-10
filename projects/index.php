@@ -13,7 +13,8 @@
     <div id="content">
       <div id="home">
         <p>
-          Yo! DJ here. Website under construction. c:
+		  Eyyyyy :c
+		</p>
       </div>
         </p>
       </div>
