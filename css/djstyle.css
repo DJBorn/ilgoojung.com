@@ -1,0 +1,144 @@
+/* ilgoojung.com stylesheet */
+
+@font-face {
+ font-family: KarmaticArcade;
+ src: url("ka1.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: KarmaticArcade;
+ src: url("ka1.ttf") format('truetype');/* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: pixel;
+ src: url("04B_03__.eot"); /* EOT file for IE */
+}
+@font-face {
+ font-family: pixel;
+ src: url("04B_03__.ttf") format('truetype'),
+      url("04B_03__.woff") format('woff');/* TTF file for CSS3 browsers */
+}
+
+.navpointer {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  visibility: hidden;
+}
+
+p {
+  margin: 10px;
+  color: black;
+  font-family: pixel, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+/* NAVIGATION STYLE ========== */
+
+#navigation {
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: pixel, 'Changa One', Impact, Arial Bold;
+  font-size: 30px;
+}
+
+.link {
+  display: inline;
+}
+
+/* END OF NAVIGATION STYLE ========== */
+
+.resume {
+  width: 97.2%;
+  border: 1px solid black;
+}
+
+#resumeDownload a {
+    color: black;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image:url('/images/Sunny-8bit-Day.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+    /* Make texts unselectable */
+  
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+
+}
+
+#header {
+  /* z-index determines which elements overlap the other */
+  z-index: 1;
+  height: 100px;
+}
+
+.navlink:link {
+  text-decoration:none;
+  color:white;
+}
+
+.navlink:visited {
+  text-decoration:none;
+  color:white;
+}
+
+.navlink:hover {
+  text-decoration:none;
+}
+
+.navlink:active {
+  text-decoration:none;
+}
+
+#home {
+  min-height: 400px;
+}
+
+#content {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+  border: 3px solid rgba(0, 0, 0, 0.5);
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+  /* background-image:url('content_background.png');*/
+}
+
+img.floatRight {
+  float: right;
+  margin: 20px;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left:43%;
+  font-family: "Calibri", Helvetica, Arial, sans-serif;
+  position: absolute;
+  color: white;
+}
