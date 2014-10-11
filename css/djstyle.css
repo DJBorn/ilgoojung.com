@@ -30,10 +30,18 @@
 	  url("04B_03__.eot");
 }
 
+@font-face {
+ font-family: petyka;
+ src: url("Petyka - Retro Computer___SHORT.ttf") format('truetype'),
+      url("Petyka - Retro Computer___SHORT.woff") format('woff'),/* TTF file for CSS3 browsers */
+	  url("Petyka - Retro Computer___SHORT.eot");
+}
+
 
 /* animated pointer */
 .navpointer {
   position: relative;
+  top: 4px;
   width: 42px;
   height: 28px;
   background-image: url("../images/pointer.png");
@@ -61,6 +69,12 @@
   font-family: pixel, Helvetica, Arial, sans-serif;
   font-size: 24px;
 }
+
+.petyka_font {
+  font-family: petyka, pixel, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
 p {
   margin: 10px;
 }
@@ -165,6 +179,24 @@ img.floatRight {
 
 .skill_list {
   padding: 10px;
+}
+
+td {
+  font-size: 24px;
+}
+
+.exp_content {
+	padding: 10px;
+}
+
+table.raids td{
+	padding-bottom: 30px;
+	vertical-align: top;
+}
+
+table.list tr{
+  font-size: 24px;
+  vertical-align: top;
 }
 
 #footer {

@@ -12,59 +12,145 @@
   <body>
 	<?php navigation_bar("experience"); ?>
     <div id="content">
-	  <div id="experience">
-	    <div class="boldpixel_font">
-		  Skills
-		</div>
-		<div class="pixel_font">
-		  <table>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">PHP </div></td>
-			  <td class="skill_list"><?php skillbar(4) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">Perl </div></td>
-			  <td class="skill_list"><?php skillbar(5) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">Javascript </div></td>
-			  <td class="skill_list"><?php skillbar(6) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">jQuery </div></td>
-			  <td class="skill_list"><?php skillbar(4) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">CSS </div></td>
-			  <td class="skill_list"><?php skillbar(7) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">Ajax </div></td>
-			  <td class="skill_list"><?php skillbar(3) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">C++ </div></td>
-			  <td class="skill_list"><?php skillbar(9) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">C </div></td>
-			  <td class="skill_list"><?php skillbar(8) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">SQL </div></td>
-			  <td class="skill_list"><?php skillbar(6) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">Linux </div></td>
-			  <td class="skill_list"><?php skillbar(8) ?></td>
-			</tr>
-			<tr>
-			  <td class="skill_list"><div class="pixel_font">OOP </div></td>
-			  <td class="skill_list"><?php skillbar(9) ?></td>
-			</tr>
-		  </table>
-		</div>
-	  </div>
+			<div id="experience" class="pixel_font">
+				<div class="boldpixel_font">
+					Skills
+				</div>
+				<table>
+					<tr>
+						<td class="skill_list">PHP </td>
+						<td class="skill_list"><?php skillbar(4) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">Perl </td>
+						<td class="skill_list"><?php skillbar(5) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">Javascript </td>
+						<td class="skill_list"><?php skillbar(6) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">jQuery </td>
+						<td class="skill_list"><?php skillbar(4) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">jQuery UI</td>
+						<td class="skill_list"><?php skillbar(4) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">CSS </td>
+						<td class="skill_list"><?php skillbar(7) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">Ajax </td>
+						<td class="skill_list"><?php skillbar(3) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">C++ </td>
+						<td class="skill_list"><?php skillbar(9) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">C </td>
+						<td class="skill_list"><?php skillbar(8) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">SQL </td>
+						<td class="skill_list"><?php skillbar(6) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">Linux </td>
+						<td class="skill_list"><?php skillbar(8) ?></td>
+					</tr>
+					<tr>
+						<td class="skill_list">OOP </td>
+						<td class="skill_list"><?php skillbar(9) ?></td>
+					</tr>
+				</table>
+				
+				<br/>
+				
+				<div class="boldpixel_font">
+					Quests Completed
+				</div>
+				
+				<div class="exp_content">
+					<div class="petyka_font">
+						Application Support Analyst
+					</div>
+					<div>
+						Citigroup - January 2014 to April 2014 <br/>
+						<table class="list">
+							<tr>
+								<td>-</td> 
+								<td>Monitored servers</td>
+							</tr>
+							<tr>
+								<td>-</td> 
+								<td>Created reports using functional programming language</td>
+							</tr>
+							<tr>
+							 <td>-</td> 
+								<td>Created a web application capable of searching through files on
+								a server in a nice GUI format</td>
+							</tr>
+							<tr>
+								<td>-</td>
+								<td>Slayed 200 goblins</td>
+							</tr>
+						</table>
+					</div>
+				
+					<div class="petyka_font">
+						Special Project Assistant
+					</div>
+					<div>
+						York Region - September 2014 to December 2014 <br/>
+						<table class="list">
+							<tr>
+									<td>-</td> 
+								<td>Used Oracle APEX to design and create web applications</td>
+							</tr>
+							<tr>
+								<td>-</td> 
+								<td>Used SQL and PL/SQL to create dynamic and logical web pages</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+				<br/>
+				
+				<div class="boldpixel_font">
+					Guild
+				</div>
+				
+				<div class="exp_content">
+					<div class="petyka_font">
+						University of Waterloo
+					</div>
+					<div>
+						September 2011 to Present
+					</div>
+					<div class="petyka_font">
+						Raids Completed
+						<table class="pixel_font raids">
+							<tr>
+								<td>User Interfaces</td>
+								<td>Created a 2D platformer using C++ and Linux X Window System</td>
+							</tr>
+							<tr>
+								<td>Object-Oriented Software Development</td>
+								<td>Designed and created a Hearts card game simulation using C++ and OOP</td>
+							</td>
+							<tr>
+								<td>Introduction to Database Management</td>
+								<td>Created simple database applications using Embedded SQL and C</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
+			</div>
     </div>
     <div id="footer">
       Copyright 2014 &#169 Ilgoo Jung

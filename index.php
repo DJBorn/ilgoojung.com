@@ -21,11 +21,11 @@
 		  composing music for games, and designing gameplay. It's been a part of who
 		  I am.<br/>
 		  <span style="padding-left: 50px"/>
-		     Dreams aside, I've also worked in a financial institution as a Support
-		  Analyst where I oversaw their applications. <br/>
+		     Dreams aside, In my past I have also worked in a financial institution as a 
+			 Support Analyst where I oversaw their applications. <br/>
 		  <span style="padding-left: 50px"/>
-		     I am currently employed at a local municipality working as a Project Assistant
-		  where I develop their web applications.
+		     Moving forward, I am now currently employed at a local municipality working 
+			 as a Project Assistant where I develop their web applications.
         </div>
       </div>
     </div>
