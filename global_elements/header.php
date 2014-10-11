@@ -1,6 +1,6 @@
 <?php 
 
-function navagation_bar($input)
+function navigation_bar($input)
 {
 echo'
 <div id="header">

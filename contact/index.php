@@ -4,12 +4,12 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <title>Daniel Jung - Contact</title>
     <meta charset="utf-8"/>
-    <link type="text/css" href="/css/djstyle.css" rel="stylesheet" type="tet/css"/>
-	<script type="text/javascript" src="/javascript/djs.js"></script>
+    <link type="text/css" href="../css/djstyle.css" rel="stylesheet" type="tet/css"/>
+	<script type="text/javascript" src="../javascript/djs.js"></script>
     <?php include "../global_elements/header.php"; ?>
   </head>
   <body>
-	<?php navagation_bar("contact"); ?>
+	<?php navigation_bar("contact"); ?>
     <div id="content">
       <form action="MAILTO:i3jung@uwaterloo.ca" method="post" enctype="text/plain">
       Name:<br>

@@ -67,7 +67,7 @@ html, body {
   width: 100%;
   left: 0;
   top: 0;
-  background-image:url('/images/Sunny-8bit-Day.jpg');
+  background-image:url('../images/Sunny-8bit-Day.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -126,7 +126,6 @@ html, body {
 
   background-color: rgba(255, 255, 255, 0.5);
 
-  /* background-image:url('content_background.png');*/
 }
 
 img.floatRight {
