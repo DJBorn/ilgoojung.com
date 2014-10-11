@@ -1,64 +1,94 @@
 /* ilgoojung.com stylesheet */
 
-@font-face {
- font-family: KarmaticArcade;
- src: url("ka1.eot"); /* EOT file for IE */
+/* fonts */
+
+@font-face { 
+ font-family: triforce;
+ src: url("Triforce.ttf") format('truetype'),
+      url("Triforce.woff") format('woff'),
+	  url("Triforce.eot");
 }
-@font-face {
- font-family: KarmaticArcade;
- src: url("ka1.ttf") format('truetype');/* TTF file for CSS3 browsers */
+
+@font-face {  
+ font-family: zeldadxt;
+ src: url("zeldadxt.ttf") format('truetype'),
+      url("zeldadxt.woff") format('woff'),
+	  url("zeldadxt.eot");
 }
+
 @font-face {
- font-family: pixel;
- src: url("04B_03__.eot"); /* EOT file for IE */
+ font-family: boldpixel;
+ src: url("04B_19__.ttf") format('truetype'),
+      url("04B_19__.woff") format('woff'),
+	  url("04B_19__.eot");
 }
+
 @font-face {
  font-family: pixel;
  src: url("04B_03__.ttf") format('truetype'),
-      url("04B_03__.woff") format('woff');/* TTF file for CSS3 browsers */
+      url("04B_03__.woff") format('woff'),/* TTF file for CSS3 browsers */
+	  url("04B_03__.eot");
 }
 
+
+/* animated pointer */
 .navpointer {
   position: relative;
-  width: 30px;
-  height: 30px;
-  top: 5px;
+  width: 42px;
+  height: 28px;
+  background-image: url("../images/pointer.png");
+  display: inline-block;
   visibility: hidden;
 }
 
-p {
-  margin: 10px;
-  color: black;
+/* font classes */
+.zeldadxt_font {
+  font-family: zeldadxt, pixel, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.boldpixel_font {
+  font-family: boldpixel, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.triforce_font {
+  font-family: triforce, pixel, Helvetica, Arial, sans-serif;
+  font-size: 50px;
+}
+
+.pixel_font {
   font-family: pixel, Helvetica, Arial, sans-serif;
   font-size: 24px;
 }
+p {
+  margin: 10px;
+}
+
 
 /* NAVIGATION STYLE ========== */
 
 #navigation {
-  padding-top: 60px;
+  padding-top: 40px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-align: center;
   font-family: pixel, 'Changa One', Impact, Arial Bold;
   font-size: 30px;
 }
 
 .link {
-  display: inline;
+  display: inline-block;
 }
 
 /* END OF NAVIGATION STYLE ========== */
 
-.resume {
-  width: 97.2%;
-  border: 1px solid black;
-}
 
-#resumeDownload a {
-    color: black;
-}
+.experience {
 
+}
 
 html, body {
   margin: 0;
@@ -116,11 +146,11 @@ html, body {
 }
 
 #content {
-  padding: 10px;
+  padding: 30px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 55%;
 
   border: 3px solid rgba(0, 0, 0, 0.5);
 
@@ -133,11 +163,17 @@ img.floatRight {
   margin: 20px;
 }
 
+.skill_list {
+  padding: 10px;
+}
+
 #footer {
   padding-top: 10px;
   padding-bottom: 10px;
-  left:43%;
-  font-family: "Calibri", Helvetica, Arial, sans-serif;
-  position: absolute;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: pixel, Helvetica, Arial, sans-serif;
   color: white;
+  
 }

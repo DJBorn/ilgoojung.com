@@ -6,14 +6,15 @@
     <meta charset="utf-8"/>
     <link type="text/css" href="../css/djstyle.css" rel="stylesheet" type="tet/css"/>
 	<script type="text/javascript" src="../javascript/djs.js"></script>
-    <?php include "../global_elements/header.php"; ?>
+	<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>
+    <?php include "../global_elements/global_scripts.php"; ?>
   </head>
   <body>
 	<?php navigation_bar("projects"); ?>
     <div id="content">
-        <p>
-		  Eyyyyy :c
-		</p>
+        <div class="pixel_font">
+		  Pending
+		</div>
       </div>
     </div>
     <div id="footer">

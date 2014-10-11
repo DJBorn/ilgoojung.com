@@ -6,16 +6,27 @@
     <meta charset="utf-8"/>
     <link type="text/css" href="./css/djstyle.css" rel="stylesheet" type="tet/css"/>
 	<script type="text/javascript" src="./javascript/djs.js"></script>
-    <?php include "./global_elements/header.php"; ?>
+	<script type="text/javascript" src="./plug-ins/jquery.animateSprite.min.js"></script>
+    <?php include "./global_elements/global_scripts.php"; ?>
   </head>
   <body>
 	<?php navigation_bar("home"); ?>
     <div id="content">
       <div id="home">
-        <p>
-          Yo! DJ here. Website under construction. c:
-      </div>
-        </p>
+        <div class="pixel_font">
+          <span style="padding-left: 50px"/>
+		      Heya! Thanks for visiting my site (: Here you can learn a bit about me. 
+		  My name's Daniel Jung and I'm a computer scientist. My greatest passion in 
+		  software would be creating fun games. I love creating sprites for games,
+		  composing music for games, and designing gameplay. It's been a part of who
+		  I am.<br/>
+		  <span style="padding-left: 50px"/>
+		     Dreams aside, I've also worked in a financial institution as a Support
+		  Analyst where I oversaw their applications. <br/>
+		  <span style="padding-left: 50px"/>
+		     I am currently employed at a local municipality working as a Project Assistant
+		  where I develop their web applications.
+        </div>
       </div>
     </div>
     <div id="footer">
