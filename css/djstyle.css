@@ -1,0 +1,223 @@
+/* ilgoojung.com stylesheet */
+
+/* fonts */
+
+@font-face { 
+ font-family: triforce;
+ src: url("Triforce.ttf") format('truetype'),
+      url("Triforce.woff") format('woff'),
+	  url("Triforce.eot");
+}
+
+@font-face {  
+ font-family: zeldadxt;
+ src: url("zeldadxt.ttf") format('truetype'),
+      url("zeldadxt.woff") format('woff'),
+	  url("zeldadxt.eot");
+}
+
+@font-face {
+ font-family: boldpixel;
+ src: url("04B_19__.ttf") format('truetype'),
+      url("04B_19__.woff") format('woff'),
+	  url("04B_19__.eot");
+}
+
+@font-face {
+ font-family: pixel;
+ src: url("04B_03__.ttf") format('truetype'),
+      url("04B_03__.woff") format('woff'),/* TTF file for CSS3 browsers */
+	  url("04B_03__.eot");
+}
+
+@font-face {
+ font-family: petyka;
+ src: url("Petyka - Retro Computer___SHORT.ttf") format('truetype'),
+      url("Petyka - Retro Computer___SHORT.woff") format('woff'),/* TTF file for CSS3 browsers */
+	  url("Petyka - Retro Computer___SHORT.eot");
+}
+
+/* animated pointer */
+.navpointer {
+  position: relative;
+  top: 4px;
+  width: 42px;
+  height: 28px;
+  background-image: url("../images/pointer.png");
+  display: inline-block;
+  visibility: hidden;
+}
+
+/* font classes */
+.zeldadxt_font {
+  font-family: zeldadxt, pixel, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.boldpixel_font {
+  font-family: boldpixel, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.triforce_font {
+  font-family: triforce, pixel, Helvetica, Arial, sans-serif;
+  font-size: 50px;
+}
+
+.pixel_font {
+  font-family: pixel, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+.petyka_font {
+  font-family: petyka, pixel, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+p {
+  margin: 10px;
+}
+
+
+/* NAVIGATION STYLE ========== */
+
+#navigation {
+  padding-top: 40px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  font-family: pixel, 'Changa One', Impact, Arial Bold;
+  font-size: 30px;
+}
+
+.link {
+  display: inline-block;
+}
+
+/* END OF NAVIGATION STYLE ========== */
+
+
+.experience {
+
+}
+html {
+	overflow-y: scroll;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image:url('../images/Sunny-8bit-Day.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+
+}
+
+
+
+#header {
+  /* z-index determines which elements overlap the other */
+  z-index: 1;
+  height: 100px;
+}
+
+.navlink:link {
+  text-decoration:none;
+  color:white;
+}
+
+.navlink:visited {
+  text-decoration:none;
+  color:white;
+}
+
+.navlink:hover {
+  text-decoration:none;
+}
+
+.navlink:active {
+  text-decoration:none;
+}
+
+#home {
+  min-height: 400px;
+}
+
+#content {
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+	overflow: hidden;
+
+  border: 3px solid rgba(0, 0, 0, 0.5);
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+img.floatRight {
+  float: right;
+  margin: 20px;
+}
+
+.skill_list {
+  padding: 10px;
+}
+
+td {
+  font-size: 24px;
+}
+
+.exp_content {
+	padding: 10px;
+}
+
+table.raids td{
+	padding-bottom: 30px;
+	vertical-align: top;
+}
+
+table.list tr{
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.play_deluxema:hover {
+	color: yellow;
+	cursor: pointer
+}
+
+.skillbar {
+    /* Make unselectable */
+  
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: block;
+	font-size: 16px;
+  text-align: center;
+  font-family: pixel, Helvetica, Arial, sans-serif;
+  color: white;
+  
+}
