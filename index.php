@@ -14,7 +14,8 @@
     <div id="content">
       <div id="home">
         <div class="pixel_font">
-          <span style="padding-left: 50px"/>
+				<img src="images/me.png" style="float:right"/>
+          <span style="padding-left: 50px"></span>
 		      Heya! Thanks for visiting my site (: Here you can learn a bit about me. 
 		  My name's Daniel Jung and I'm a computer scientist. My greatest passion in 
 		  software would be creating fun games. I love creating sprites for games,

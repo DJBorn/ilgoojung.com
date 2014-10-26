@@ -9,7 +9,7 @@ echo'
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a href="/" class="navlink'; 
+		      <a rel=\'tab\' href="/" class="navlink'; 
 if (strcmp($input, "home") == 0) { echo ' active'; }
 
 echo '">Home</a>
@@ -18,7 +18,7 @@ echo '">Home</a>
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a href="/experience" class="navlink';
+		      <a rel=\'tab\' href="/experience" class="navlink';
 if ($input == "experience") { echo ' active'; }
 echo '"> EXP</a>
             </div>
@@ -26,9 +26,9 @@ echo '"> EXP</a>
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a href="/projects" class="navlink';
-if ($input == "projects") { echo ' active'; }
-echo '">Projects</a>
+		      <a rel=\'tab\' href="/inventory" class="navlink';
+if ($input == "inventory") { echo ' active'; }
+echo '">Inventory</a>
             </div>
 	      </li>
         </u1>
@@ -39,6 +39,6 @@ echo '">Projects</a>
 // function to create a skill bar given the skill amount from 0-10
 function skillbar($input)
 {
-	echo '<img src="../images/skillbar' . $input . '.png" />';
+	echo '<img class="skillbar" src="../images/skillbar' . $input . '.png" />';
 }
 ?>

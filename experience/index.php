@@ -19,7 +19,7 @@
 				<table>
 					<tr>
 						<td class="skill_list">PHP </td>
-						<td class="skill_list"><?php skillbar(4) ?></td>
+						<td class="skill_list"><?php skillbar(3) ?></td>
 					</tr>
 					<tr>
 						<td class="skill_list">Perl </td>
@@ -27,7 +27,7 @@
 					</tr>
 					<tr>
 						<td class="skill_list">Javascript </td>
-						<td class="skill_list"><?php skillbar(6) ?></td>
+						<td class="skill_list"><?php skillbar(3) ?></td>
 					</tr>
 					<tr>
 						<td class="skill_list">jQuery </td>

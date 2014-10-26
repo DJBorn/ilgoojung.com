@@ -37,7 +37,6 @@
 	  url("Petyka - Retro Computer___SHORT.eot");
 }
 
-
 /* animated pointer */
 .navpointer {
   position: relative;
@@ -103,8 +102,10 @@ p {
 .experience {
 
 }
-
-html, body {
+html {
+	overflow-y: scroll;
+}
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -115,21 +116,10 @@ html, body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  
-    /* Make texts unselectable */
-  
-   -moz-user-select: -moz-none;
-   -khtml-user-select: none;
-   -webkit-user-select: none;
-
-   /*
-     Introduced in IE 10.
-     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
-   */
-   -ms-user-select: none;
-   user-select: none;
 
 }
+
+
 
 #header {
   /* z-index determines which elements overlap the other */
@@ -165,6 +155,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
+	overflow: hidden;
 
   border: 3px solid rgba(0, 0, 0, 0.5);
 
@@ -199,11 +190,32 @@ table.list tr{
   vertical-align: top;
 }
 
+.play_deluxema:hover {
+	color: yellow;
+	cursor: pointer
+}
+
+.skillbar {
+    /* Make unselectable */
+  
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
 #footer {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
   display: block;
+	font-size: 16px;
   text-align: center;
   font-family: pixel, Helvetica, Arial, sans-serif;
   color: white;
