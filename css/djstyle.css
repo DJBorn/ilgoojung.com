@@ -165,18 +165,23 @@ body {
   min-height: 400px;
 }
 
+#content_container {
+	width: 60%;
+	margin: 0 auto;
+}
+
 #content_background {
-  padding: 30px;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 55%;
+  width: 100%;
 	overflow: hidden;
 
   border: 3px solid rgba(0, 0, 0, 0.5);
 
   background-color: rgba(255, 255, 255, 0.5);
+}
 
+#content {
+  padding: 30px;
 }
 
 img.floatRight {

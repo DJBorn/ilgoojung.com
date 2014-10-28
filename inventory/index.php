@@ -41,28 +41,30 @@
   </head>
   <body>
 	<?php navigation_bar("inventory"); ?>
-    <div id="content_background">
-			<div id="content">
-				<div class="pixel_font">
-					<span style="padding-left: 50px"></span>
-					This is my inventory where I keep my list of projects. Check them out.
-				</div><br/>
-				<div class="boldpixel_font">
-					Deluxema
-				</div>
-				<div class="pixel_font">
-					<span style="padding-left: 50px"></span>
-						Deluxema is a 2D game I made using Phaser and Javascript. I designed the sprites 
-					using Gimp and GraphicsGale.<br/>
-					<span style="padding-left: 50px"></span>
-						There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
-					inside a mirror. Go ahead and try it out!
-				</div><br/>
-				<div style="text-align: center;">
-					<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
+		<div id="content_container">
+			<div id="content_background">
+				<div id="content">
+					<div class="pixel_font">
+						<span style="padding-left: 50px"></span>
+						This is my inventory where I keep my list of projects. Check them out.
+					</div><br/>
+					<div class="boldpixel_font">
+						Deluxema
+					</div>
+					<div class="pixel_font">
+						<span style="padding-left: 50px"></span>
+							Deluxema is a 2D game I made using Phaser and Javascript. I designed the sprites 
+						using Gimp and GraphicsGale.<br/>
+						<span style="padding-left: 50px"></span>
+							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
+						inside a mirror. Go ahead and try it out!
+					</div><br/>
+					<div style="text-align: center;">
+						<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
+					</div>
 				</div>
 			</div>
-    </div>
+		</div>
     <div id="footer">
       Copyright 2014 &#169 Ilgoo Jung
     </div>
