@@ -92,6 +92,21 @@ p {
   font-size: 30px;
 }
 
+u1.navbar {
+	/* Make unselectable */
+
+ -moz-user-select: -moz-none;
+ -khtml-user-select: none;
+ -webkit-user-select: none;
+
+ /*
+	 Introduced in IE 10.
+	 See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+ */
+ -ms-user-select: none;
+ user-select: none;
+}
+
 .link {
   display: inline-block;
 }
@@ -127,7 +142,7 @@ body {
   height: 100px;
 }
 
-.navlink:link {
+.navlink {
   text-decoration:none;
   color:white;
 }
@@ -139,6 +154,7 @@ body {
 
 .navlink:hover {
   text-decoration:none;
+	cursor: pointer;
 }
 
 .navlink:active {
@@ -149,7 +165,7 @@ body {
   min-height: 400px;
 }
 
-#content {
+#content_background {
   padding: 30px;
   margin-top: 20px;
   margin-left: auto;
@@ -195,7 +211,7 @@ a.play_deluxema {
 
 .play_deluxema:hover {
 	color: yellow;
-	cursor: pointer
+	cursor: pointer;
 }
 
 .skills {

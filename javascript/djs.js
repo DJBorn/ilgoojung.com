@@ -28,3 +28,29 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$('img').on('dragstart', function(event) { event.preventDefault(); });
 });
+
+// fade out the content on page change
+$(document).ready(function() {
+	$(".navlink").click(function() {
+		var that = this;
+		$("#content").animate({opacity: "0.0"});
+		$("#footer").animate({opacity: "0.0"});
+		$("#content").promise().done(function() {
+			$("#content_background").hide("blind");
+			$("#content_background").promise().done(function() {
+				window.location.href = $(that).attr('rel');
+			});
+		});
+	});
+});
+
+// fade in content on page load
+$(document).ready(function(){
+	$('#content_background').hide().show("blind");
+	$('#content').hide();
+	$('#footer').hide();
+	$('#content_background').promise().done(function() {
+		$('#content').fadeIn();
+		$('#footer').fadeIn();
+	});
+});

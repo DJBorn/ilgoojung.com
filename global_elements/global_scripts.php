@@ -5,11 +5,11 @@ function navigation_bar($input)
 echo'
 <div id="header">
       <div id="navigation">
-        <u1>
+        <u1 class="navbar">
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a rel=\'tab\' href="/" class="navlink'; 
+		      <a rel="/" class="navlink'; 
 if (strcmp($input, "home") == 0) { echo ' active'; }
 
 echo '">Home</a>
@@ -18,15 +18,15 @@ echo '">Home</a>
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a rel=\'tab\' href="/experience" class="navlink';
+		      <a rel="/experience" class="navlink';
 if ($input == "experience") { echo ' active'; }
-echo '"> EXP</a>
+echo '">EXP</a>
             </div>
 		  </li>
           <li class="link">
 		    <div class="link">
     	      <div class="navpointer"></div>
-		      <a rel=\'tab\' href="/inventory" class="navlink';
+		      <a rel="/inventory" class="navlink';
 if ($input == "inventory") { echo ' active'; }
 echo '">Inventory</a>
             </div>
