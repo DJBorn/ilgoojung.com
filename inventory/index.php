@@ -23,11 +23,9 @@
 	<script type="text/javascript">
 	function load_deluxema() { 
 	Shadowbox.init({
-			// let's skip the automatic setup because we don't have any
-			// properly configured link elements on the page
 			skipSetup: true
 	});
-			// open a welcome message as soon as the window loads
+			// open deluxema once shadowbox has finished
 			Shadowbox.open({
 					content:    '<div id="stage"></div>',
 					player:     "html",
@@ -44,6 +42,7 @@
 	<?php navigation_bar("inventory"); ?>
     <div id="content">
 			<div class="pixel_font">
+				<span style="padding-left: 50px"></span>
 				This is my inventory where I keep my list of projects. Check them out.
 			</div><br/>
 			<div class="boldpixel_font">
@@ -51,9 +50,15 @@
 			</div>
 			<div class="pixel_font">
 				<span style="padding-left: 50px"></span>
-				Deluxema is a 2D game I made using Phaser and Javascript. Go ahead and try it out!
+					Deluxema is a 2D game I made using Phaser and Javascript. I designed the sprites 
+				using Gimp and GraphicsGale.<br/>
+				<span style="padding-left: 50px"></span>
+					There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
+				inside a mirror. Go ahead and try it out!
 			</div><br/>
-			<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
+			<div style="text-align: center;">
+				<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
+			</div>
     </div>
     <div id="footer">
       Copyright 2014 &#169 Ilgoo Jung

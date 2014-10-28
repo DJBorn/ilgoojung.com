@@ -16,17 +16,20 @@
         <div class="pixel_font">
 				<img src="images/me.png" style="float:right"/>
           <span style="padding-left: 50px"></span>
-		      Heya! Thanks for visiting my site (: Here you can learn a bit about me. 
-		  My name's Daniel Jung and I'm a computer scientist. My greatest passion in 
-		  software would be creating fun games. I love creating sprites for games,
-		  composing music for games, and designing gameplay. It's been a part of who
-		  I am.<br/>
-		  <span style="padding-left: 50px"/>
-		     Dreams aside, In my past I have also worked in a financial institution as a 
-			 Support Analyst where I oversaw their applications. <br/>
-		  <span style="padding-left: 50px"/>
-		     Moving forward, I am now currently employed at a local municipality working 
-			 as a Project Assistant where I develop their web applications.
+						Heya! Thanks for visiting my site (: Here you can learn a bit about me. 
+					My name's Daniel Jung and I'm a programmaholic. Right now I'm a student at
+					the University of Waterloo going for a Bachelor of Computer Science.<br/><br/>
+          <span style="padding-left: 50px"></span>
+						What got me into this program is my interest in games, especially the indie kind. I've always
+					wondered how those games worked as a kid! So I learned. I love creating sprites for games,
+					composing music for games, and designing gameplay. It's been a part of who
+					I am.<br/><br/>
+					<span style="padding-left: 50px"/>
+						 But hey, I'm not always in pixel world, in my past I have also worked in a financial institution as a 
+					Support Analyst where I oversaw their applications. <br/><br/>
+					<span style="padding-left: 50px"/>
+						Moving forward, I am now currently employed at a local municipality working 
+					as a Project Assistant where I develop their web applications.
         </div>
       </div>
     </div>

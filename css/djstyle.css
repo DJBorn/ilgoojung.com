@@ -189,10 +189,17 @@ table.list tr{
   font-size: 24px;
   vertical-align: top;
 }
+a.play_deluxema {
+	margin: auto;
+}
 
 .play_deluxema:hover {
 	color: yellow;
 	cursor: pointer
+}
+
+.skills {
+	margin: auto;
 }
 
 .skillbar {

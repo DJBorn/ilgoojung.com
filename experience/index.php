@@ -13,59 +13,59 @@
 	<?php navigation_bar("experience"); ?>
     <div id="content">
 			<div id="experience" class="pixel_font">
-				<div class="boldpixel_font">
-					Skills
-				</div>
-				<table>
-					<tr>
-						<td class="skill_list">PHP </td>
-						<td class="skill_list"><?php skillbar(3) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">Perl </td>
-						<td class="skill_list"><?php skillbar(5) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">Javascript </td>
-						<td class="skill_list"><?php skillbar(3) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">jQuery </td>
-						<td class="skill_list"><?php skillbar(4) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">jQuery UI</td>
-						<td class="skill_list"><?php skillbar(4) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">CSS </td>
-						<td class="skill_list"><?php skillbar(7) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">Ajax </td>
-						<td class="skill_list"><?php skillbar(3) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">C++ </td>
-						<td class="skill_list"><?php skillbar(9) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">C </td>
-						<td class="skill_list"><?php skillbar(8) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">SQL </td>
-						<td class="skill_list"><?php skillbar(6) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">Linux </td>
-						<td class="skill_list"><?php skillbar(8) ?></td>
-					</tr>
-					<tr>
-						<td class="skill_list">OOP </td>
-						<td class="skill_list"><?php skillbar(9) ?></td>
-					</tr>
-				</table>
+					<div class="boldpixel_font">
+						Skills
+					</div>
+					<table class="skills">
+						<tr>
+							<td class="skill_list">PHP </td>
+							<td class="skill_list"><?php skillbar(3) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">Perl </td>
+							<td class="skill_list"><?php skillbar(5) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">Javascript </td>
+							<td class="skill_list"><?php skillbar(3) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">jQuery </td>
+							<td class="skill_list"><?php skillbar(4) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">jQuery UI</td>
+							<td class="skill_list"><?php skillbar(4) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">CSS </td>
+							<td class="skill_list"><?php skillbar(7) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">Ajax </td>
+							<td class="skill_list"><?php skillbar(3) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">C++ </td>
+							<td class="skill_list"><?php skillbar(9) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">C </td>
+							<td class="skill_list"><?php skillbar(8) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">SQL </td>
+							<td class="skill_list"><?php skillbar(6) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">Linux </td>
+							<td class="skill_list"><?php skillbar(8) ?></td>
+						</tr>
+						<tr>
+							<td class="skill_list">OOP </td>
+							<td class="skill_list"><?php skillbar(9) ?></td>
+						</tr>
+					</table>
 				
 				<br/>
 				

@@ -8,6 +8,6 @@
   <body>
   <h1>404 Error</h1>
   <p>Page not found</p>
-  <a href="index">Home</a>
+  <a href="/">Home</a>
   </body>
 </html>
