@@ -38,10 +38,10 @@
 		};
 		</script>
     <?php include "../global_elements/global_scripts.php"; ?>
-		<?php google_analytics()?>
   </head>
   <body>
-	<?php navigation_bar("inventory"); ?>
+		<?php include "../global_elements/analyticstracking.php"; ?>
+		<?php navigation_bar("inventory"); ?>
 		<div id="content_container">
 			<div id="content_background">
 				<div id="content">
