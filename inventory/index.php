@@ -38,6 +38,7 @@
 		};
 		</script>
     <?php include "../global_elements/global_scripts.php"; ?>
+		<?php google_analytics()?>
   </head>
   <body>
 	<?php navigation_bar("inventory"); ?>
@@ -53,8 +54,8 @@
 					</div>
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
-							Deluxema is a 2D game I made using Phaser and Javascript. I designed the sprites 
-						using Gimp and GraphicsGale.<br/>
+							Deluxema is a 2D game for desktop I made using Phaser and Javascript. Best performance
+							on Google Chrome. I designed the sprites using Gimp and GraphicsGale.<br/>
 						<span style="padding-left: 50px"></span>
 							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
 						inside a mirror. Go ahead and try it out!

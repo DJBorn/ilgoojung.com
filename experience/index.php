@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="../javascript/djs.js"></script>
 		<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>
     <?php include "../global_elements/global_scripts.php"; ?>
+		<?php google_analytics()?>
   </head>
   <body>
 	<?php navigation_bar("experience"); ?>
