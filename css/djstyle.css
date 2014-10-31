@@ -173,7 +173,6 @@ body {
 #content_background {
   margin-top: 20px;
   width: 100%;
-	overflow: hidden;
 
   border: 3px solid rgba(0, 0, 0, 0.5);
 
@@ -181,6 +180,7 @@ body {
 }
 
 #content {
+	overflow: hidden;
   padding: 30px;
 }
 

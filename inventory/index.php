@@ -58,7 +58,9 @@
 							on Google Chrome. I designed the sprites using Gimp and GraphicsGale.<br/>
 						<span style="padding-left: 50px"></span>
 							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
-						inside a mirror. Go ahead and try it out!
+						inside a mirror. Go ahead and try it out!<br/>
+						<span style="padding-left: 50px"></span>
+							Oh and hey, if you find a bug or issue, feel free to let me know at idjung4@gmail.com I appreciate it! (:
 					</div><br/>
 					<div style="text-align: center;">
 						<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>

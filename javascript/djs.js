@@ -15,6 +15,7 @@ $(document).ready(function() {
   $(".active").css('color', 'yellow');
 });
 
+// Pointer animation
 $(document).ready(function() {
 	$(".navpointer").animateSprite({
 		fps: 12,
