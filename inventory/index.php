@@ -8,6 +8,7 @@
     <link type="text/css" href="../css/djstyle.css" rel="stylesheet" type="tet/css"/>
 		<script type="text/javascript" src="../javascript/djs.js"></script>
 		<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>
+		<script type="text/javascript" src="../javascript/treasure.js"></script>
 		<script src="../plug-ins/pixi.js-master/bin/pixi.dev.js"></script>
 		<link rel="stylesheet" type="text/css" href="../plug-ins/shadowbox-3.0.3/shadowbox.css">
 		<script type="text/javascript" src="../plug-ins/shadowbox-3.0.3/shadowbox.js"></script>

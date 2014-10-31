@@ -8,6 +8,7 @@
     <link type="text/css" href="../css/djstyle.css" rel="stylesheet" type="tet/css"/>
 		<script type="text/javascript" src="../javascript/djs.js"></script>
 		<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>
+		<script type="text/javascript" src="../javascript/treasure.js"></script>
     <?php include "../global_elements/global_scripts.php"; ?>
   </head>
   <body>
