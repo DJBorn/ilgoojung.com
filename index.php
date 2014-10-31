@@ -35,7 +35,7 @@
 							Support Analyst where I oversaw their applications. <br/><br/>
 							<span style="padding-left: 50px"/>
 								Moving forward, I am now currently employed at a local municipality working 
-							as a Project Assistant where I develop their web applications.<br/><br/><br/><br/><br/>
+							as a Project Assistant where I develop their web applications.
 						</div>
 					</div>
 				</div>
