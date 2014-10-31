@@ -8,6 +8,8 @@
     <link type="text/css" href="./css/djstyle.css" rel="stylesheet" type="tet/css"/>
 		<script type="text/javascript" src="./javascript/djs.js"></script>
 		<script type="text/javascript" src="./plug-ins/jquery.animateSprite.min.js"></script>
+		<script type="text/javascript" src="./plug-ins/blocksjs-0.5.12.min.js"></script>
+		<script type="text/javascript" src="./javascript/treasure.js"></script>
     <?php include "./global_elements/global_scripts.php"; ?>
   </head>
   <body>
@@ -33,13 +35,14 @@
 							Support Analyst where I oversaw their applications. <br/><br/>
 							<span style="padding-left: 50px"/>
 								Moving forward, I am now currently employed at a local municipality working 
-							as a Project Assistant where I develop their web applications.
+							as a Project Assistant where I develop their web applications.<br/><br/><br/><br/><br/>
 						</div>
 					</div>
 				</div>
 			</div>
     </div>
     <div id="footer">
+			<?php footer_links();?>
       Copyright 2014 &#169 Ilgoo Jung
     </div>
   </body>

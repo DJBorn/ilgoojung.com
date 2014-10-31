@@ -69,6 +69,7 @@
 			</div>
 		</div>
     <div id="footer">
+			<?php footer_links();?>
       Copyright 2014 &#169 Ilgoo Jung
     </div>
   </body>

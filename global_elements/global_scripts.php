@@ -41,20 +41,31 @@ function skillbar($input)
 {
 	echo '<img class="skillbar" src="../images/skillbar' . $input . '.png" />';
 }
-?>
 
-<?php
-function google_analytics()
+function footer_links()
 {
-	echo "<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-56228722-1', 'auto');
-		ga('send', 'pageview');
-
-	</script>";
+	echo '
+						<div style="width: 200px; height: 80px; margin: 0 auto;">
+							<div style="height: 50px; width: 50px; left: 40%; position: absolute;">
+								<div style="position: absolute;">
+									<canvas id="github_treasure"></canvas>
+								</div>
+								<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
+									<img src="/images/github.png" style="max-width: 100%; max-height: 100%;"/>
+								</div>
+							</div>
+							<script>create_treasure("#github_treasure", "https://github.com/DJBorn");</script>
+			
+							<div style="height: 50px; width: 50px; right: 40%; position: absolute;">
+								<div style="position: absolute;">
+									<canvas id="linkedin_treasure"></canvas>
+								</div>
+								<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
+									<img src="/images/Linked_In_Icon.png" style="max-width: 100%; max-height: 100%;"/>
+								</div>
+							</div>
+						</div>
+						<script>create_treasure("#linkedin_treasure", "https://www.linkedin.com/profile/view?id=217522781");</script>';
 }
 ?>
+
