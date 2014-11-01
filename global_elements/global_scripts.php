@@ -65,7 +65,7 @@ function footer_links()
 								</div>
 							</div>
 						</div>
-						<script>create_treasure("#linkedin_treasure", "https://www.linkedin.com/profile/view?id=217522781");</script>';
+						<script>create_treasure("#linkedin_treasure", "https://www.linkedin.com/in/idjung");</script>';
 }
 ?>
 
