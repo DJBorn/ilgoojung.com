@@ -32,7 +32,7 @@
 								</tr>
 								<tr>
 									<td class="skill_list">Javascript </td>
-									<td class="skill_list"><?php skillbar(3) ?></td>
+									<td class="skill_list"><?php skillbar(5) ?></td>
 								</tr>
 								<tr>
 									<td class="skill_list">jQuery </td>
@@ -47,7 +47,7 @@
 									<td class="skill_list"><?php skillbar(7) ?></td>
 								</tr>
 								<tr>
-									<td class="skill_list">Ajax </td>
+									<td class="skill_list">Java </td>
 									<td class="skill_list"><?php skillbar(3) ?></td>
 								</tr>
 								<tr>
