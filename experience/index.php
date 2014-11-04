@@ -119,6 +119,10 @@
 										<td>-</td> 
 										<td>Used SQL and PL/SQL to create dynamic and logical web pages</td>
 									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Designed database structure to fit business needs</td>
+									</tr>
 								</table>
 							</div>
 						</div>
