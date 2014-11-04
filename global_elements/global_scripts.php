@@ -46,7 +46,7 @@ function footer_links()
 {
 	echo '
 						<div style="width: 200px; height: 80px; margin: 0 auto;">
-							<div style="height: 50px; width: 50px; left: 40%; position: absolute;">
+							<div id="github_link" style="width: 69px; height: 78px; left: 40%; position: absolute;">
 								<div style="position: absolute;">
 									<canvas id="github_treasure"></canvas>
 								</div>
@@ -54,9 +54,9 @@ function footer_links()
 									<img src="/images/github.png" style="max-width: 100%; max-height: 100%;"/>
 								</div>
 							</div>
-							<script>create_treasure("#github_treasure", "https://github.com/DJBorn");</script>
+							<script>create_treasure("#github_treasure", "#github_link", "https://github.com/DJBorn");</script>
 			
-							<div style="height: 50px; width: 50px; right: 40%; position: absolute;">
+							<div id="linkedin_link" style="width: 69px; height: 78px; right: 40%; position: absolute;">
 								<div style="position: absolute;">
 									<canvas id="linkedin_treasure"></canvas>
 								</div>
@@ -65,7 +65,7 @@ function footer_links()
 								</div>
 							</div>
 						</div>
-						<script>create_treasure("#linkedin_treasure", "https://www.linkedin.com/in/idjung");</script>';
+						<script>create_treasure("#linkedin_treasure", "#linkedin_link", "https://www.linkedin.com/in/idjung");</script>';
 }
 ?>
 

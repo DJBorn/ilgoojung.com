@@ -25,7 +25,7 @@
         };
 }());
 
-function create_treasure (treasure_id, link){
+function create_treasure (treasure_id, container_id, link){
 	$(treasure_id).parent().next().hide();
 	var coin,
 		coinImage,
@@ -57,17 +57,17 @@ function create_treasure (treasure_id, link){
 		that.frame_width = options.frame_width;
 		
 		that.update = function () {
-						$(treasure_id).mouseover(function() {
+						$(container_id).mouseover(function() {
 								animationDirection = 1;
 						});
-						$(treasure_id).mouseout(function() {
+						$(container_id).mouseout(function() {
 								if(revealed)
 								{
 									revealed = false;
 									$(treasure_id).parent().next().stop(true, true);
 									$(treasure_id).parent().next().hide();
-									$(treasure_id).css( "cursor", "auto");
-									$(treasure_id).unbind("click");
+									$(container_id).css( "cursor", "auto");
+									$(container_id).unbind("click");
 								}
 								animationDirection = -1;
 						});
@@ -90,8 +90,8 @@ function create_treasure (treasure_id, link){
 									{
 										revealed = true;
 										$(treasure_id).parent().next().fadeIn();
-										$(treasure_id).css( "cursor", "pointer");
-										$(treasure_id).bind("click", function() {
+										$(container_id).css( "cursor", "pointer");
+										$(container_id).bind("click", function() {
 											window.location = link;
 										});
 									}
