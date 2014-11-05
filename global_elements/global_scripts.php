@@ -45,8 +45,8 @@ function skillbar($input)
 function footer_links()
 {
 	echo '
-						<div style="width: 200px; height: 80px; margin: 0 auto;">
-							<div id="github_link" style="width: 69px; height: 78px; left: 40%; position: absolute;">
+						<div style="width: 300px; height: 80px; margin: 0 auto; position: relative;">
+							<div id="github_link" style="width: 69px; height: 78px; position: absolute;">
 								<div style="position: absolute;">
 									<canvas id="github_treasure"></canvas>
 								</div>
@@ -56,7 +56,7 @@ function footer_links()
 							</div>
 							<script>create_treasure("#github_treasure", "#github_link", "https://github.com/DJBorn");</script>
 			
-							<div id="linkedin_link" style="width: 69px; height: 78px; right: 40%; position: absolute;">
+							<div id="linkedin_link" style="width: 69px; height: 78px; right: 0; position: absolute;">
 								<div style="position: absolute;">
 									<canvas id="linkedin_treasure"></canvas>
 								</div>
