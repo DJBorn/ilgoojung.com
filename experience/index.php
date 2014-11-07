@@ -95,8 +95,13 @@
 									</tr>
 									<tr>
 									 <td>-</td> 
-										<td>Created a web application capable of searching through files on
+										<td>Created a web application capable of searching through and filtering files on
 										a server in a nice GUI format</td>
+									</tr>
+									<tr>
+									<tr>
+									 <td>-</td> 
+										<td>Ran day to day checks on applications and create tickets for any issues</td>
 									</tr>
 									<tr>
 										<td>-</td>
