@@ -128,6 +128,10 @@
 										<td>-</td> 
 										<td>Designed database structure to fit business needs</td>
 									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Worked in a group to create a KPI application that reports monthly, quarterly, and yearly values</td>
+									</tr>
 								</table>
 							</div>
 						</div>
