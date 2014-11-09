@@ -105,7 +105,7 @@
 									</tr>
 									<tr>
 										<td>-</td>
-										<td>Slayed 200 goblins</td>
+										<td>Hunted 500 Skelesaurs</td>
 									</tr>
 								</table>
 							</div>
