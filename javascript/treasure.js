@@ -56,8 +56,7 @@ function create_treasure (treasure_id, container_id, link){
 		that.frame_height = options.frame_height;
 		that.frame_width = options.frame_width;
 		
-		that.update = function () {
-						$(container_id).mouseover(function() {
+		$(container_id).mouseover(function() {
 								animationDirection = 1;
 						});
 						$(container_id).mouseout(function() {
@@ -71,6 +70,7 @@ function create_treasure (treasure_id, container_id, link){
 								}
 								animationDirection = -1;
 						});
+		that.update = function () {
 						
 						tickCount += 1;
 
@@ -79,9 +79,10 @@ function create_treasure (treasure_id, container_id, link){
 								tickCount = 0;
 								if(frameIndex <= 0 && animationDirection == -1)
 								{
-									$(treasure_id).parent().next().hide();
 									animationDirection = 0;
 								}
+								
+								
 								if(frameIndex >= numberOfFrames - 1 && animationDirection == 1)
 								{
 									animationDirection = 0;
@@ -96,6 +97,8 @@ function create_treasure (treasure_id, container_id, link){
 										});
 									}
 								}
+								
+								
 				
                 frameIndex += animationDirection;
              
