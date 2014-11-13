@@ -70,6 +70,10 @@
 									<td class="skill_list">OOP </td>
 									<td class="skill_list"><?php skillbar(9) ?></td>
 								</tr>
+								<tr>
+									<td class="skill_list">Photoshop CS6 </td>
+									<td class="skill_list"><?php skillbar(3) ?></td>
+								</tr>
 							</table>
 						
 						<br/>
