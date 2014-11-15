@@ -212,10 +212,11 @@ table.list tr{
 }
 a.play_deluxema {
 	margin: auto;
+	color: #FF4000;
 }
 
 .play_deluxema:hover {
-	color: yellow;
+	color: #FE642E;
 	cursor: pointer;
 }
 
