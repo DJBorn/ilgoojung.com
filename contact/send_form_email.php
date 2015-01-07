@@ -1,17 +1,4 @@
-<html lang="en">
-  <head>
-    <link href='http://fonts.googleapis.com/css?family=Anton|Changa+One|Rubik+One' rel='stylesheet' type='text/css'>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <title>Daniel Jung</title>
-    <meta charset="utf-8"/>
-    <link type="text/css" href="../css/djstyle.css" rel="stylesheet" type="tet/css"/>
-		<script type="text/javascript" src="../javascript/djs.js"></script>
-		<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>
-		<script type="text/javascript" src="../plug-ins/blocksjs-0.5.12.min.js"></script>
-		<script type="text/javascript" src="../javascript/treasure.js"></script>
-    <?php include "../global_elements/global_scripts.php"; ?>
-		<?php
+<?php
 
 if(isset($_POST['email'])) {
  
@@ -148,72 +135,21 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
  
 @mail($email_to, $email_subject, $email_message, $headers);  
- }
+ 
 ?>
-
-  </head>
-  <body>
-		<?php include "../global_elements/analyticstracking.php"; ?>
-		<?php navigation_bar("pm"); ?>
-		<div id="content_container">
-			<div id="content_background">
-				<div id="content">
-					<form id="contactform" name="contactform" method="post">
-						<table width="450px">
-						<tr>
-						 <td valign="top">
-							<label for="first_name">First Name *</label>
-						 </td>
-						 <td valign="top">
-							<input  type="text" name="first_name" maxlength="50" size="30">
-						 </td>
-						</tr>
-						<tr>
-						 <td valign="top"">
-							<label for="last_name">Last Name *</label>
-						 </td>
-						 <td valign="top">
-							<input  type="text" name="last_name" maxlength="50" size="30">
-						 </td>
-						</tr>
-						<tr>
-						 <td valign="top">
-							<label for="email">Email Address *</label>
-						 </td>
-						 <td valign="top">
-							<input  type="text" name="email" maxlength="80" size="30">
-						 </td>
-						</tr>
-						<tr>
-						 <td valign="top">
-							<label for="telephone">Telephone Number</label>
-						 </td>
-						 <td valign="top">
-							<input  type="text" name="telephone" maxlength="30" size="30">
-						 </td>
-						</tr>
-						<tr>
-						 <td valign="top">
-							<label for="comments">Comments *</label>
-						 </td>
-						 <td valign="top">
-							<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-						 </td>
-						</tr>
-						<tr>
-						 <td colspan="2" style="text-align:center">
-							<input type="submit" name "submit" value="Submit">
-						 </td>
-						</tr>
-						</table>
-					</form>
-				</div>
-			</div>
-    </div>
-    <div id="footer">
-			<?php footer_links();?>
-			
-      Copyright 2014 &#169 Ilgoo Jung
-    </div>
-  </body>
-</html>
+ 
+ 
+ 
+<!-- include your own success html here -->
+ 
+ 
+ 
+Thank you for contacting us. We will be in touch with you very soon.
+ 
+ 
+ 
+<?php
+ 
+}
+ 
+?>

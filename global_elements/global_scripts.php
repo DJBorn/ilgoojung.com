@@ -30,15 +30,6 @@ echo '">EXP</a>
 if ($input == "inventory") { echo ' active'; }
 echo '">Inventory</a>
             </div>
-	      </li>
-          <li class="link">
-						<div class="link">
-							<div class="navpointer"></div>
-							<a rel="/contact" class="navlink';
-if ($input == "pm") { echo ' active'; }
-echo '">PM</a>
-            </div>
-					</li>
         </u1>
       </div>
     </div>';
