@@ -15,6 +15,7 @@
 		<script src="../plug-ins/phaser/build/phaser.min.js"></script>
 		<script type="text/javascript" src="../Web-Deluxema/game_state.js"></script>
 		<script type="text/javascript" src="../Web-Deluxema/hud.js"></script>
+		<script type="text/javascript" src="../Web-Deluxema/soundtrack.js"></script>
 		<script type="text/javascript" src="../Web-Deluxema/explosion.js"></script>
 		<script type="text/javascript" src="../Web-Deluxema/missile.js"></script>
 		<script type="text/javascript" src="../Web-Deluxema/mirror.js"></script>
