@@ -11,6 +11,7 @@
 		<script type="text/javascript" src="./plug-ins/blocksjs-0.5.12.min.js"></script>
 		<script type="text/javascript" src="./javascript/treasure.js"></script>
     <?php include "./global_elements/global_scripts.php"; ?>
+	<?php include "./global_elements/footer.php"; ?>
   </head>
   <body>
 		<?php include "./global_elements/analyticstracking.php"; ?>
@@ -43,7 +44,7 @@
     </div>
     <div id="footer">
 			<?php footer_links();?>
-      Copyright 2014 &#169 Ilgoo Jung
+			<?php footer(); ?>
     </div>
   </body>
 </html>
