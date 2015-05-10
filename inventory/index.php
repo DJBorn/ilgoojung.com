@@ -73,6 +73,7 @@
 						<span style="padding-left: 50px"></span>
 						This is my inventory where I keep my list of projects. Check them out.
 					</div><br/>
+					<!-- Deluxema -->
 					<div class="boldpixel_font">
 						Deluxema
 					</div>
@@ -89,6 +90,8 @@
 					<div style="text-align: center;">
 						<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
 					</div><br/>
+					<!-- Deluxema End -->
+					<!-- DreamScheme -->
 					<div class="boldpixel_font">
 						DreamScheme
 					</div>
@@ -100,7 +103,6 @@
 						created and I'm glad I was able to work on it. For this game, I did a simple palette swap for the hero.<br/>
 					</div><br/>
 					<!-- Jssor Slider Begin -->
-					<!-- To move inline styles to css file/block, please specify a class name for each element. --> 
 					<div id="slider1_container" style="margin: auto;position: relative; top: 0px; left: 0px; width: 600px;
 						height: 450px; ">
 
@@ -135,9 +137,9 @@
 						<span u="arrowright" class="jssora03r" style="top: 198px; right: 8px;">
 						</span>
 						<!--#endregion Arrow Navigator Skin End -->
-						<a style="display: none" href="http://www.jssor.com">slider in html</a>
 					</div>
 					<!-- Jssor Slider End -->
+					<!-- DreamScheme End -->
 				</div>
 			</div>
 		</div>
