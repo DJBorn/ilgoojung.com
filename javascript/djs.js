@@ -68,4 +68,15 @@ $(document).ready(function(){
 	});
 });
 
+// change inner content size when window is too small
+$(window).resize(function() {
+	if($(this).width() < 1024)
+		document.getElementById("content_container").style.width = "98%";
+	else
+		document.getElementById("content_container").style.width = "60%";
+});
+
+
+
+
 
