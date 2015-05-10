@@ -94,9 +94,9 @@
 					</div>
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
-							DreamScheme 2D game I created with a close friend in High School. It was created using C++ and
+							DreamScheme is a 2D game I created with a close friend in High School. It was created using C++ and
 						Dark GDK. This was the first time I was exposed to state programming, which put me in a brand new
-						mind set for programming games. It's a bit unrefined but it was the first graphical game I had ever 
+						mind set for programming games. It's a bit unrefined (we had high hopes back then) but it was the first graphical game I had ever 
 						created and I'm glad I was able to work on it. For this game, I did a simple palette swap for the hero.<br/>
 					</div><br/>
 					<!-- Jssor Slider Begin -->
