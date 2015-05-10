@@ -45,6 +45,15 @@ $(document).ready(function() {
 	});
 });
 
+// Resize window on load
+$(document).ready(function(){
+	if($(window).width() < 1024)
+		document.getElementById("content_container").style.width = "98%";
+	else
+		document.getElementById("content_container").style.width = "60%";
+
+});
+
 // fade in content on page load
 $(document).ready(function(){
 	$('#content_background').hide().show("blind");
