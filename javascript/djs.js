@@ -55,3 +55,17 @@ $(document).ready(function(){
 		$('#footer').fadeIn();
 	});
 });
+
+// reset videos on slideshow change
+$(document).ready(function(){
+	$(".jssora03l").click(function() {
+		$("#ds_demo1").get(0).pause();
+		$("#ds_demo1").get(0).currentTime = 0;
+		$("#ds_demo2").get(0).pause();
+		$("#ds_demo2").get(0).currentTime = 0;
+		$("#ds_demo3").get(0).pause();
+		$("#ds_demo3").get(0).currentTime = 0;
+	});
+});
+
+
