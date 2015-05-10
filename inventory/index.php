@@ -68,6 +68,13 @@
 					<div style="text-align: center;">
 						<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
 					</div>
+					<div class="boldpixel_font">
+						DreamScheme
+					</div>
+					<video width="400" height="auto" autoplay loop>
+					  <source src="../videos/DreamScheme_Demo_1.mp4" type="video/mp4">
+					  Your browser does not support the video tag.
+					</video>
 				</div>
 			</div>
 		</div>
