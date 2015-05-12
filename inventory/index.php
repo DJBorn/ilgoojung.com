@@ -154,6 +154,20 @@
 					</div>
 					<!-- Jssor Slider End -->
 					<!-- DreamScheme End -->
+					<!-- Hearts -->
+					<div class="boldpixel_font">
+						Hearts
+					</div>
+					<div class="pixel_font">
+						<span style="padding-left: 50px"></span>
+							A text-based card game that consists of Human/AI players. This was created in my CS 246 Object-Oriented Programming course with a partner.
+						We treated many of components of the game as objects; cards, a card pile which consists of cards, a deck which is a cardpile consisting of 
+						52 cards as well as 'deck-like' behaviour (card shuffling), and different types of players that hold card piles and handle their moves differently. 
+						The driver controls the main game by creating and using these objects.<br/>
+						<span style="padding-left: 50px"></span>
+							This was not exactly the most graphical game but it did give me the object-oriented technique when creating my future games, including Deluxema.<br/>
+					</div><br/>
+					<!-- Hearts End -->
 				</div>
 			</div>
 		</div>
