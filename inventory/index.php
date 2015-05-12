@@ -58,6 +58,7 @@
 			};
 
 			var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+			var jssor_slider2 = new $JssorSlider$("slider2_container", options);
 		});
 	</script>
 	<?php include "../global_elements/global_scripts.php"; ?>
@@ -79,8 +80,16 @@
 					</div>
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
-							Deluxema is a 2D game for desktop I made using Phaser and Javascript. Best performance
-							on Google Chrome. I designed the sprites using Gimp and GraphicsGale.<br/>
+							Deluxema is a 2D game for desktop I made using Phaser and Javascript. Best performance on Google Chrome. 
+						The game play is controlled through several different states that depend on user input. All classes are initially loaded
+						and the player is thrown into the initial Menu State, then once the user presses the enter key, it shifts into the animation
+						sequence that transitions into the game itself. Once the animation sequence completes, the player is then in the main game state
+						where they gain full control over the main character. This main game state dynamically changes as the game progresses; the more
+						points the player gets, the more enemies there are. Finally, once the player is overwhelmed, they are transitioned into the 
+						game over state where all variables are reset and they are taken back to the menu state.<br/>
+						<span style="padding-left: 50px"></span>
+							As for the artwork, I designed the sprites independently using Gimp and GraphicsGale, an open source image editing software.
+						The gameboy-like sound effects were created using Bfxr, a tool for creating sounds using the basic waveforms.<br/>
 						<span style="padding-left: 50px"></span>
 							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
 						inside a mirror. Go ahead and try it out!<br/>
@@ -103,6 +112,10 @@
 						further discouraged to fully complete this version because people would not be able to play it without owning a 
 						windows PC and downloading all the files necessary to run the game. Instead I used what resources I already had
 						and continued development for the web, where it was open to everyone that can run a browser.<br/>
+						<span style="padding-left: 50px"></span>
+							Developing Deluxema Vanilla allowed me to program games with minimal resources and learn things like collision
+						detection, animations, game physics/mechanics and general game play design. I was also able to refine my Object Oriented
+						skills through this project.<br/>
 					</div><br/>
 					<!-- Deluxema Vanilla End -->
 					<!-- DreamScheme -->
@@ -112,9 +125,12 @@
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
 							DreamScheme is a 2D game I created with a close friend in High School. It was created using C++ and
-						Dark GDK. This was the first time I was exposed to state programming, which put me in a brand new
-						mind set for programming games. It's a bit unrefined (we had high hopes back then) but it was the first graphical game I had ever 
-						created and I'm glad I was able to work on it. For this game, I did a simple palette swap for the hero.<br/>
+						Dark GDK. This was the first time I was exposed to state programming, which introduced me to how many games
+						are programmed. It's a bit unrefined (we had high hopes back then) but it was the first graphical game I had ever 
+						created and I'm glad I was able to work on it.<br/>
+						<span style="padding-left: 50px"></span>
+							As for the artwork, we did several palette swaps for the heroes and monsters, and used sprites from the popular
+						Mario series by Nintendo to create custom levels.<br/>
 					</div><br/>
 					<!-- Jssor Slider Begin -->
 					<div id="slider1_container" style="margin: auto;position: relative; top: 0px; left: 0px; width: 600px;
@@ -151,7 +167,7 @@
 						<span u="arrowright" class="jssora03r" style="top: 198px; right: 8px;">
 						</span>
 						<!--#endregion Arrow Navigator Skin End -->
-					</div>
+					</div><br/>
 					<!-- Jssor Slider End -->
 					<!-- DreamScheme End -->
 					<!-- Hearts -->
@@ -160,7 +176,7 @@
 					</div>
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
-							A text-based card game that consists of Human/AI players. This was created in my CS 246 Object-Oriented Programming course with a partner.
+							A text-based card game that consists of Human/AI players. This was created in my Object-Oriented Programming course along with a partner.
 						We treated many of components of the game as objects; cards, a card pile which consists of cards, a deck which is a cardpile consisting of 
 						52 cards as well as 'deck-like' behaviour (card shuffling), and different types of players that hold card piles and handle their moves differently. 
 						The driver controls the main game by creating and using these objects.<br/>
@@ -168,6 +184,44 @@
 							This was not exactly the most graphical game but it did give me the object-oriented technique when creating my future games, including Deluxema.<br/>
 					</div><br/>
 					<!-- Hearts End -->
+					<!-- XMario -->
+					<div class="boldpixel_font">
+						XMario
+					</div>
+					<div class="pixel_font">
+						<span style="padding-left: 50px"></span>
+							This is a 2D platformer I made for my User Interface class. This was made using C++ and X Windows, a basic framework for the Unix systems for creating GUI interfaces.
+						I wanted to recreate the original 8-bit Mario game, so I designed my custom level by using a binary 2D array which determines if a block is there or not. I also
+						drew Mario using a 2D array with colour codes corresponding to each pixel. I made separate arrays for each frame in his running/death animation. Then I employed
+						simple collision detection, gravity, and a jump for the basic Mario-like platformer.<br/>
+						<span style="padding-left: 50px"></span>
+							This project allowed me to use a basic framework for drawing to create custom sprites and environments.<br/>
+					</div><br/>
+					<!-- Jssor Slider Begin -->
+					<div id="slider2_container" style="margin: auto;position: relative; top: 0px; left: 0px; width: 600px;
+						height: 450px; ">
+
+						<!-- Slides Container -->
+						<div u="slides" style="cursor: auto; position: absolute; left: 0px; top: 0px; width: 600px; height: 450px;
+							overflow: hidden;">
+							<div><img u="image" src="../images/XMario_Gallery/screenshot1.png" /></div>
+							<div><img u="image" src="../images/XMario_Gallery/screenshot2.png" /></div>
+							<div><img u="image" src="../images/XMario_Gallery/screenshot3.png" /></div>
+							<div><img u="image" src="../images/XMario_Gallery/screenshot4.png" /></div>
+							<div><img u="image" src="../images/XMario_Gallery/screenshot5.png" /></div>
+						</div>
+						
+						<!--#region Arrow Navigator Skin Begin -->
+						<!-- Arrow Left -->
+						<span u="arrowleft" class="jssora03l" style="top: 198px; left: 8px;">
+						</span>
+						<!-- Arrow Right -->
+						<span u="arrowright" class="jssora03r" style="top: 198px; right: 8px;">
+						</span>
+						<!--#endregion Arrow Navigator Skin End -->
+					</div><br/>
+					<!-- Jssor Slider End -->
+					<!-- XMario End -->
 				</div>
 			</div>
 		</div>
