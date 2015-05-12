@@ -91,6 +91,20 @@
 						<a class="play_deluxema triforce_font" onclick="load_deluxema();" rel="shadowbox">Play</a>
 					</div><br/>
 					<!-- Deluxema End -->
+					<!-- Deluxema Vanilla -->
+					<div class="boldpixel_font">
+						Deluxema Vanilla
+					</div>
+					<div class="pixel_font">
+						<span style="padding-left: 50px"></span>
+							Deluxema was in development initially for the windows PC using C++ and the gaming engine Dark GDK. This was
+						the first gaming framework I was familiar with. The framework itself was limiting and I found it challenging to
+						handle most physics and animations without the use of predefined helper methods from the framework itself. I was
+						further discouraged to fully complete this version because people would not be able to play it without owning a 
+						windows PC and downloading all the files necessary to run the game. Instead I used what resources I already had
+						and continued development for the web, where it was open to everyone that can run a browser.<br/>
+					</div><br/>
+					<!-- Deluxema Vanilla End -->
 					<!-- DreamScheme -->
 					<div class="boldpixel_font">
 						DreamScheme
