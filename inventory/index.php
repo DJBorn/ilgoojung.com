@@ -12,7 +12,7 @@
 	<script src="../plug-ins/pixi.js-master/bin/pixi.dev.js"></script>							<!-- pixi -->
 	<link rel="stylesheet" type="text/css" href="../plug-ins/shadowbox-3.0.3/shadowbox.css">	<!-- pop up shadowbox stylesheet -->
 	<script type="text/javascript" src="../plug-ins/shadowbox-3.0.3/shadowbox.js"></script>		<!-- pop up shadowbox scripts -->
-	<script src="../plug-ins/phaser/build/phaser.min.js"></script>								<!-- phaser -->
+	<script src="../plug-ins/phaser.min.js"></script>								<!-- phaser -->
     <link type="text/css" href="../css/jssor.css" rel="stylesheet" type="tet/css"/>				<!-- jssor slideshow css file -->
 	<script type="text/javascript" src="../plug-ins/jssor.slider.mini.js"></script>				<!-- jssor slideshow -->
 	
