@@ -16,11 +16,14 @@ function close_deluxema() {
 };
 
 function deluxema(){
+	// Create the Phaser Stage
 	var game = new Phaser.Game(1000, 400, Phaser.AUTO, 'stage', { preload: preload, create: create, update: update, render: render });
 	
+	// Create all objects and pre load files required for each object
 	function preload () {
 		game.time.advancedTiming = true;
 		game.stage.smoothed = false;
+		
 		main_game.game_state = state.MENU;
 		
 		main_game.level = new Level(game);
@@ -42,6 +45,7 @@ function deluxema(){
 		main_game.soundtrack.preload();
 	}
 
+	// Create instances of members inside objects that use the pre loaded files
 	function create ()
 	{
 		main_game.level.create();
@@ -56,6 +60,7 @@ function deluxema(){
 		main_game.soundtrack.create();
 	}
 	
+	// Update each object
 	function update ()
 	{
 		if(main_game.close)
@@ -76,6 +81,7 @@ function deluxema(){
 		main_game.soundtrack.update();
 	}
 	
+	// Debugging rendering
 	function render () {/*
     game.debug.text(game.time.fps, 2, 14, "#00ff00");
 		game.debug.body(main_game.ace.sprite);

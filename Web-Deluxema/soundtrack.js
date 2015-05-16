@@ -11,7 +11,7 @@ function Soundtrack(game) {
 Soundtrack.prototype.preload = function()
 {
 	// Load the main theme file
-	this.game.load.audio('main_theme', '../Web-Deluxema/includes/Sounds/Music/[10] Voile Magic Library.mp3');
+	this.game.load.audio('main_theme', '../Web-Deluxema/includes/Sounds/Music/Main_Theme.mp3');
 	
 };
 
@@ -31,7 +31,7 @@ Soundtrack.prototype.update = function()
 	if(main_game.game_state == state.GAME && !this.main_theme_start)
 	{
 		this.main_theme_start = true;
-		this.main_theme.loopFull(0.2);
+		this.main_theme.loopFull(0.4);
 	}
 	
 	if(main_game.game_state == state.RESULT)
