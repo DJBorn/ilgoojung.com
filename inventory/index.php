@@ -72,7 +72,7 @@
 				<div id="content">
 					<div class="pixel_font">
 						<span style="padding-left: 50px"></span>
-						This is my inventory where I keep my list of projects. Check them out.
+						This is my inventory where I keep my list of projects. Check them out. If you want to see some source code, visit my <a style="text-decoration: none" href="https://github.com/DJBorn">Github</a>
 					</div><br/>
 					<!-- Deluxema -->
 					<div class="boldpixel_font">
@@ -90,7 +90,7 @@
 						<span style="padding-left: 50px"></span>
 							As for the artwork, I designed the sprites independently using Gimp and GraphicsGale, an open source image editing software.
 						The gameboy-like sound effects were created using Bfxr, a tool for creating sounds using the basic waveforms. The music was created
-						using FL Studio using Chiptune like sounds<br/>
+						using FL Studio using Chiptune like sounds.<br/>
 						<span style="padding-left: 50px"></span>
 							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
 						inside a mirror. Go ahead and try it out!<br/>

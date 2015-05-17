@@ -36,7 +36,10 @@
 							Support Analyst where I oversaw their applications. <br/><br/>
 							<span style="padding-left: 50px"/>
 								In addition, I have also been employed at a local municipality working 
-							as a Project Assistant where I developed their web applications.
+							as a Project Assistant where I developed their web applications. <br/><br/>
+							<span style="padding-left: 50px"/>
+								If you want to know more about my experience and skills, look at my EXP stats. Or if you'd like to
+							see some of my creations, have a look in my personal inventory.
 						</div>
 					</div>
 				</div>
