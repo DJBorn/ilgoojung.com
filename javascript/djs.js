@@ -26,6 +26,12 @@ $(document).ready(function() {
 	});
 });
 
+// Create birds
+$(document).ready(function() {
+	draw();
+});
+
+
 $(document).ready(function() {
 	$('img').on('dragstart', function(event) { event.preventDefault(); });
 });
@@ -84,7 +90,6 @@ $(window).resize(function() {
 	else
 		document.getElementById("content_container").style.width = "60%";
 });
-
 
 
 

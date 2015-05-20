@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="../javascript/djs.js"></script>							<!-- Global javascript functions-->
 	<script type="text/javascript" src="../plug-ins/jquery.animateSprite.min.js"></script>		<!-- Sprite animations  -->
 	<script type="text/javascript" src="../javascript/treasure.js"></script>					<!-- treasure animation -->
+	<script type="text/javascript" src="../javascript/bird.js"></script>						<!-- birds -->
 	<script src="../plug-ins/pixi.js-master/bin/pixi.dev.js"></script>							<!-- pixi -->
 	<link rel="stylesheet" type="text/css" href="../plug-ins/shadowbox-3.0.3/shadowbox.css">	<!-- pop up shadowbox stylesheet -->
 	<script type="text/javascript" src="../plug-ins/shadowbox-3.0.3/shadowbox.js"></script>		<!-- pop up shadowbox scripts -->
@@ -65,6 +66,7 @@
 	<?php include "../global_elements/footer.php"; ?>
   </head>
   <body>
+		<?php bird(); ?>
 		<?php include "../global_elements/analyticstracking.php"; ?>
 		<?php navigation_bar("inventory"); ?>
 		<div id="content_container">

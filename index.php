@@ -10,6 +10,7 @@
 		<script type="text/javascript" src="./plug-ins/jquery.animateSprite.min.js"></script>
 		<script type="text/javascript" src="./plug-ins/blocksjs-0.5.12.min.js"></script>
 		<script type="text/javascript" src="./javascript/treasure.js"></script>
+		<script type="text/javascript" src="./javascript/bird.js"></script>
     <?php include "./global_elements/global_scripts.php"; ?>
 	<?php include "./global_elements/footer.php"; ?>
   </head>

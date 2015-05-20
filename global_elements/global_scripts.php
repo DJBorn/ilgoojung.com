@@ -41,30 +41,36 @@ function skillbar($input)
 	echo '<img class="skillbar" src="../images/skillbar' . $input . '.png" />';
 }
 
+// function to create birds
+function bird()
+{
+	echo '<canvas id="bird"></canvas>';
+}
+
 function footer_links()
 {
 	echo '
-						<div style="width: 300px; height: 80px; margin: 0 auto; position: relative;">
-							<div id="github_link" style="width: 69px; height: 78px; position: absolute;">
-								<div style="position: absolute;">
-									<canvas id="github_treasure"></canvas>
-								</div>
-								<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
-									<img src="/images/github.png" style="max-width: 100%; max-height: 100%;"/>
-								</div>
-							</div>
-							<script>create_treasure("#github_treasure", "#github_link", "https://github.com/DJBorn");</script>
-			
-							<div id="linkedin_link" style="width: 69px; height: 78px; right: 0; position: absolute;">
-								<div style="position: absolute;">
-									<canvas id="linkedin_treasure"></canvas>
-								</div>
-								<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
-									<img src="/images/Linked_In_Icon.png" style="max-width: 100%; max-height: 100%;"/>
-								</div>
-							</div>
-						</div>
-						<script>create_treasure("#linkedin_treasure", "#linkedin_link", "https://www.linkedin.com/in/idjung");</script>';
+		<div style="width: 300px; height: 80px; margin: 0 auto; position: relative;">
+			<div id="github_link" style="width: 69px; height: 78px; position: absolute;">
+				<div style="position: absolute;">
+					<canvas id="github_treasure"></canvas>
+				</div>
+				<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
+					<img src="/images/github.png" style="max-width: 100%; max-height: 100%;"/>
+				</div>
+			</div>
+			<script>create_treasure("#github_treasure", "#github_link", "https://github.com/DJBorn");</script>
+
+			<div id="linkedin_link" style="width: 69px; height: 78px; right: 0; position: absolute;">
+				<div style="position: absolute;">
+					<canvas id="linkedin_treasure"></canvas>
+				</div>
+				<div style="left: 10px; top: 20px; height: 50; width: 50; position: absolute; pointer-events:none; ">
+					<img src="/images/Linked_In_Icon.png" style="max-width: 100%; max-height: 100%;"/>
+				</div>
+			</div>
+		</div>
+		<script>create_treasure("#linkedin_treasure", "#linkedin_link", "https://www.linkedin.com/in/idjung");</script>';
 }
 ?>
 
