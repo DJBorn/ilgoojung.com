@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 // Create birds
 $(document).ready(function() {
-	draw();
+	//draw();
 });
 
 
