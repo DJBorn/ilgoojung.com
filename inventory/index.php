@@ -66,6 +66,7 @@
 	<?php include "../global_elements/footer.php"; ?>
   </head>
   <body>
+		<?php bird(); ?>
 		<?php include "../global_elements/analyticstracking.php"; ?>
 		<?php navigation_bar("inventory"); ?>
 		<div id="content_container">

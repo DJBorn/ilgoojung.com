@@ -27,16 +27,16 @@
 
 function create_treasure (treasure_id, container_id, link){
 	$(treasure_id).parent().next().hide();
-	var coin,
-		coinImage,
+	var treasure,
+		treasureImage,
 		canvas;					
 
 	function gameLoop () {
 	
 	  window.requestAnimationFrame(gameLoop);
 
-	  coin.update();
-	  coin.render();
+	  treasure.update();
+	  treasure.render();
 	}
 	
 	function sprite (options) {
@@ -134,14 +134,14 @@ function create_treasure (treasure_id, container_id, link){
 	canvas.height = 78;
 	
 	// Create sprite sheet
-	coinImage = new Image();	
+	treasureImage = new Image();	
 	
 	// Create sprite
-	coin = sprite({
+	treasure = sprite({
 		context: canvas.getContext("2d"),
 		width: 345,
 		height: 468,
-		image: coinImage,
+		image: treasureImage,
 		numberOfFrames: 26,
 		frame_width: 69,
 		frame_height: 78,
@@ -149,8 +149,8 @@ function create_treasure (treasure_id, container_id, link){
 	});
 	
 	// Load sprite sheet
-	coinImage.addEventListener("load", gameLoop);
-	coinImage.src = "/images/treasure_chest_69x78.png";
+	treasureImage.addEventListener("load", gameLoop);
+	treasureImage.src = "/images/treasure_chest_69x78.png";
 
 };
 
