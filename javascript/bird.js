@@ -25,6 +25,15 @@
 }());
 
 $(document).ready(function () {
+	if (jQuery.browser.mobile) {
+		$("body").css("background-image", "url('../images/Sunny-8bit-Day.jpg')");
+		$("body").css("background-size", "100% 100%");
+		$("body").css("background-repeat", "repeat");
+		$("body").css("background-attachment", "fixed");
+	}
+});
+
+$(document).ready(function () {
 	if(!jQuery.browser.mobile) {
 		var numBirds = 6,
 			birds = [],
