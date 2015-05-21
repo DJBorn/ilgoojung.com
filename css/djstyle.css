@@ -52,6 +52,10 @@
 #bird {
 	position: fixed;
 	z-index: -1;
+	background-image:url('../images/Sunny-8bit-Day.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
 }
 
 /* font classes */
@@ -157,10 +161,6 @@ body {
   width: 100%;
   left: 0;
   top: 0;
-  background-image:url('../images/Sunny-8bit-Day.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
 }
 
 
