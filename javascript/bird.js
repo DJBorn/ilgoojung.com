@@ -30,20 +30,33 @@ $(document).ready(function () {
 		birds = [],
 		bird_x_spawn_min = -window.innerWidth,
 		bird_x_spawn_max = -36,
-		bird_y_spawn_min = 50,
-		bird_y_spawn_max = 400,
-		bird_height_max = 300,
-		bird_height_min = 50,
-		bird_bottom_height_max = 400,
-		bird_bottom_height_min = 350,
+		bird_y_spawn_min = window.innerHeight * 0.05,
+		bird_y_spawn_max = window.innerHeight * 0.5,
+		bird_height_max = window.innerHeight * 0.35,
+		bird_height_min = window.innerHeight * 0.05,
+		bird_bottom_height_max = window.innerHeight * 0.5,
+		bird_bottom_height_min = window.innerHeight * 0.45,
 		canvas;					
 
 	function gameLoop () {
 	
 		window.requestAnimationFrame(gameLoop);
 		
-		  // Clear the canvas
-		  canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
+		// resize canvas when window resizes and recalculate birds flight bounds
+		$(window).resize(function() {
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+			
+			bird_y_spawn_min = window.innerHeight * 0.05;
+			bird_y_spawn_max = window.innerHeight * 0.5;
+			bird_height_max = window.innerHeight * 0.35;
+			bird_height_min = window.innerHeight * 0.05;
+			bird_bottom_height_max = window.innerHeight * 0.5;
+			bird_bottom_height_min = window.innerHeight * 0.45;
+		});
+		
+		// Clear the canvas
+		canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
 		
 		for(var i = 0; i < birds.length; i++) {
 			birds[i].update();
@@ -69,6 +82,7 @@ $(document).ready(function () {
 		that.y = 0;
 		
 		that.update = function () {
+			
 			// do regular animation
             tickCount += 1;
 
