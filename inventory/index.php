@@ -84,20 +84,18 @@
 						<span style="padding-left: 50px"></span>
 							Deluxema is a 2D game for desktop I made using Phaser and Javascript. Best performance on Google Chrome. 
 						The game play is controlled through several different states that depend on user input. All classes are initially loaded
-						and the player is thrown into the initial Menu State, then once the user presses the enter key, it shifts into the animation
+						and the player is thrown into the Menu State, then once the user presses the enter key, it shifts into the animation
 						sequence that transitions into the game itself. Once the animation sequence completes, the player is then in the main game state
 						where they gain full control over the main character. This main game state dynamically changes as the game progresses; the more
 						points the player gets, the more enemies there are. Finally, once the player is overwhelmed, they are transitioned into the 
 						game over state where all variables are reset and they are taken back to the menu state.<br/>
 						<span style="padding-left: 50px"></span>
-							As for the artwork, I designed the sprites independently using Gimp and GraphicsGale, an open source image editing software.
+							As for the artwork, I designed the sprites using Gimp and GraphicsGale, an open source image editing software.
 						The gameboy-like sound effects were created using Bfxr, a tool for creating sounds using the basic waveforms. The music was created
 						using FL Studio using Chiptune like sounds.<br/>
 						<span style="padding-left: 50px"></span>
 							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
 						inside a mirror. Go ahead and try it out!<br/>
-						<span style="padding-left: 50px"></span>
-							Oh and hey, if you find a bug or issue, feel free to let me know at idjung4@gmail.com I appreciate it! (:
 					</div><br/>
 					<div style="text-align: center;">
 						<?php
@@ -139,8 +137,8 @@
 							Deluxema was in development initially for the windows PC using C++ and the gaming engine Dark GDK. This was
 						the first gaming framework I was familiar with. The framework itself was limiting and I found it challenging to
 						handle most physics and animations without the use of predefined helper methods from the framework itself. I was
-						further discouraged to fully complete this version because people would not be able to play it without owning a 
-						windows PC and downloading all the files necessary to run the game. Instead I used what resources I already had
+						further discouraged to fully complete this version because I like the idea of someone being able to play the game
+						without needing to download any files. Instead I used what resources I already had
 						and continued development for the web, where it was open to everyone that can run a browser.<br/>
 						<span style="padding-left: 50px"></span>
 							Developing Deluxema Vanilla allowed me to program games with minimal resources and learn things like collision

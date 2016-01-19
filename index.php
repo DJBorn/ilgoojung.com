@@ -29,19 +29,12 @@
 							My name's Daniel Jung and I'm a Software Developer. Right now I'm a student at
 							the University of Waterloo pursuing a Bachelor of Computer Science.<br/><br/>
 							<span style="padding-left: 50px"></span>
-								What got me into this program is my interest in games, especially the indie kind. I've always
-							wondered how those games worked as a kid! So I learned. I love creating sprites for games,
-							composing music for games, and designing gameplay. Most of all, programming games is what gets me
-							mesmerized.<br/><br/>
+								My passion for programming comes from the enriching experience people feel when they use software.
+							I am user oriented and highly value design, creativity, and usability.<br/><br/>
 							<span style="padding-left: 50px"/>
-								But hey, I'm not always in pixel world, in my past I have also worked in a financial institution as a 
-							Support Analyst where I oversaw their applications. <br/><br/>
+								If you want to check out where I"ve worked in the past, check out my EXP stats or if you'd like to 
+							see some of my neat projects, have a look at my personal inventory.<br/><br/>
 							<span style="padding-left: 50px"/>
-								In addition, I have also been employed at a local municipality working 
-							as a Project Assistant where I developed their web applications. <br/><br/>
-							<span style="padding-left: 50px"/>
-								If you want to know more about my experience and skills, look at my EXP stats. Or if you'd like to
-							see some of my creations, have a look in my personal inventory.
 						</div>
 					</div>
 				</div>

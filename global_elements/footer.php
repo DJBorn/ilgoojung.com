@@ -2,7 +2,7 @@
 // navigation bar
 function footer()
 {
-	echo 'Copyright 2015 &#169 Ilgoo Jung';
+	echo 'Copyright 2016 &#169 Ilgoo Jung';
 }
 ?>
 

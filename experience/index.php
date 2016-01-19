@@ -27,7 +27,7 @@
 							<table class="skills pixel_font">
 								<tr>
 									<td class="skill_list">PHP </td>
-									<td class="skill_list"><?php skillbar(3) ?></td>
+									<td class="skill_list"><?php skillbar(4) ?></td>
 								</tr>
 								<tr>
 									<td class="skill_list">Perl </td>
@@ -35,7 +35,7 @@
 								</tr>
 								<tr>
 									<td class="skill_list">Javascript </td>
-									<td class="skill_list"><?php skillbar(5) ?></td>
+									<td class="skill_list"><?php skillbar(7) ?></td>
 								</tr>
 								<tr>
 									<td class="skill_list">jQuery </td>
@@ -65,10 +65,6 @@
 									<td class="skill_list">Linux </td>
 									<td class="skill_list"><?php skillbar(7) ?></td>
 								</tr>
-								<tr>
-									<td class="skill_list">OOP </td>
-									<td class="skill_list"><?php skillbar(9) ?></td>
-								</tr>
 							</table>
 						
 						<br/>
@@ -79,36 +75,31 @@
 						
 						<div class="exp_content">
 							<div class="petyka_font">
-								Application Support Analyst
+								Software Developer
 							</div>
 							<div>
-								Citigroup - January 2014 to April 2014 <br/>
+								Christie Digital Systems Inc. - September 2015 to December 2015 <br/>
 								<table class="list pixel_font">
 									<tr>
 										<td>-</td> 
-										<td>Monitored servers</td>
+										<td>Implemented several new features on cinema projector UI</td>
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Created reports using functional programming language</td>
+										<td>Fixed various issues throughout projector UI</td>
 									</tr>
 									<tr>
-									 <td>-</td> 
-										<td>Created a web application capable of searching through and filtering files on
-										a server in a nice GUI format</td>
+										<td>-</td> 
+										<td>Created a small web application which automated internal tasks</td>
 									</tr>
 									<tr>
-									<tr>
-									 <td>-</td> 
-										<td>Ran day to day checks on applications and create tickets for any issues</td>
-									</tr>
-									<tr>
-										<td>-</td>
-										<td>Hunted 500 Skelesaurs</td>
+										<td>-</td> 
+										<td>Participated in agile scrum methodologies</td>
 									</tr>
 								</table>
 							</div>
-						
+							<br/>
+							
 							<div class="petyka_font">
 								Special Project Assistant
 							</div>
@@ -116,7 +107,7 @@
 								York Region - September 2014 to December 2014 <br/>
 								<table class="list pixel_font">
 									<tr>
-											<td>-</td> 
+										<td>-</td> 
 										<td>Used Oracle APEX to design and create web applications</td>
 									</tr>
 									<tr>
@@ -133,10 +124,36 @@
 									</tr>
 								</table>
 							</div>
+							<br/>
+							
+							<div class="petyka_font">
+								Application Support Analyst
+							</div>
+							<div>
+								Citigroup - January 2014 to April 2014 <br/>
+								<table class="list pixel_font">
+									<tr>
+										<td>-</td> 
+										<td>Monitored servers</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Created reports using functional programming language</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Created a web application capable of searching through and filtering files on
+										a server in a nice GUI format</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Ran day to day checks on applications and create tickets for any issues</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 						
 						<br/>
-						
 						<div class="boldpixel_font">
 							Guild
 						</div>
