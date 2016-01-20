@@ -46,16 +46,8 @@
 									<td class="skill_list"><?php skillbar(7) ?></td>
 								</tr>
 								<tr>
-									<td class="skill_list">Java </td>
-									<td class="skill_list"><?php skillbar(3) ?></td>
-								</tr>
-								<tr>
 									<td class="skill_list">C++ </td>
 									<td class="skill_list"><?php skillbar(9) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">C </td>
-									<td class="skill_list"><?php skillbar(8) ?></td>
 								</tr>
 								<tr>
 									<td class="skill_list">SQL </td>
