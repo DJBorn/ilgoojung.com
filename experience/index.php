@@ -21,51 +21,35 @@
 			<div id="content_background">
 				<div id="content">
 					<div id="experience" class="pixel_font">
-							<div class="boldpixel_font">
-								Skills
-							</div>
-							<table class="skills pixel_font">
-								<tr>
-									<td class="skill_list">PHP </td>
-									<td class="skill_list"><?php skillbar(4) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">Perl </td>
-									<td class="skill_list"><?php skillbar(5) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">Javascript </td>
-									<td class="skill_list"><?php skillbar(7) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">jQuery </td>
-									<td class="skill_list"><?php skillbar(4) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">CSS </td>
-									<td class="skill_list"><?php skillbar(7) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">C++ </td>
-									<td class="skill_list"><?php skillbar(9) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">SQL </td>
-									<td class="skill_list"><?php skillbar(6) ?></td>
-								</tr>
-								<tr>
-									<td class="skill_list">Linux </td>
-									<td class="skill_list"><?php skillbar(7) ?></td>
-								</tr>
-							</table>
-						
-						<br/>
-						
 						<div class="boldpixel_font">
 							Quests Completed
 						</div>
-						
 						<div class="exp_content">
+							<div class="petyka_font">
+								Application Developer
+							</div>
+							<div>
+								Bank of America Merrill Lynch - May 2016 to December 2016 <br/>
+								<table class="list pixel_font">
+									<tr>
+										<td>-</td> 
+										<td>Lead and implemented new features in an internal web application from design phase to production deployment</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Invented a progressive web app prototype from scratch and presenting its effectiveness to senior executives</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Responded effectively to bugs and small enhancements with careful analysis and implementation</td>
+									</tr>
+									<tr>
+										<td>-</td> 
+										<td>Implemented a new schema to enhance data organization for future applications</td>
+									</tr>
+								</table>
+							</div>
+							<br/>
 							<div class="petyka_font">
 								Software Developer
 							</div>
@@ -86,7 +70,7 @@
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Participated in agile scrum methodologies</td>
+										<td>Participated in agile scrum methodologies including stand-ups, sprint planning, and sprint reviews</td>
 									</tr>
 								</table>
 							</div>
@@ -100,15 +84,15 @@
 								<table class="list pixel_font">
 									<tr>
 										<td>-</td> 
-										<td>Used Oracle APEX to design and create web applications</td>
+										<td>Implemented new features in existing web applications with Oracle APEX</td>
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Used SQL and PL/SQL to create dynamic and logical web pages</td>
+										<td>Provided support to team members with technical issues</td>
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Designed database structure to fit business needs</td>
+										<td>Designed database structure to align with business requirements</td>
 									</tr>
 									<tr>
 										<td>-</td> 
@@ -126,20 +110,15 @@
 								<table class="list pixel_font">
 									<tr>
 										<td>-</td> 
-										<td>Monitored servers</td>
+										<td>Created a program to reports to generate graphs which display trends of server statuses</td>
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Created reports using functional programming language</td>
+										<td>Created a web application capable of searching through and filtering files on a server in a GUI format</td>
 									</tr>
 									<tr>
 										<td>-</td> 
-										<td>Created a web application capable of searching through and filtering files on
-										a server in a nice GUI format</td>
-									</tr>
-									<tr>
-										<td>-</td> 
-										<td>Ran day to day checks on applications and create tickets for any issues</td>
+										<td>Ran day to day checks on applications and create tickets for issues that arise</td>
 									</tr>
 								</table>
 							</div>

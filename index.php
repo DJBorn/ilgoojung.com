@@ -24,17 +24,17 @@
 					<div id="home">
 						<div class="pixel_font">
 						<img src="images/me.png" style="float:right"/>
-							<span style="padding-left: 50px"></span>
-								Heya! Thanks for visiting my site (: Here you can learn a bit about me. 
-							My name's Daniel Jung and I'm a Software Developer. Right now I'm a student at
-							the University of Waterloo pursuing a Bachelor of Computer Science.<br/><br/>
-							<span style="padding-left: 50px"></span>
-								My passion for programming comes from the enriching experience people feel when they use software.
-							I am user oriented and highly value design, creativity, and usability.<br/><br/>
-							<span style="padding-left: 50px"/>
-								If you want to check out where I"ve worked in the past, check out my EXP stats or if you'd like to 
-							see some of my neat projects, have a look at my personal inventory.<br/><br/>
-							<span style="padding-left: 50px"/>
+							Hey, thanks for visiting my site! Here you can learn a bit about me. 
+							My name's Daniel Jung and I'm a Software Developer. I'm also a student at
+							the University of Waterloo pursuing a Bachelor of Computer Science graduating in April of 2017.<br/><br/>
+
+							My passion for programming comes from the enriching the experience people feel when they use software.
+							I like to envision what I want to create and turn it into life by using what I know about programming and what
+							I have learned working with others.<br><br>
+
+							I believe one of the most important skills in software development is the ability to be empathetic. What the programmer
+							believes how a program works isn't important, but how others will be using it. By putting myself in the other people's shoes and
+							constantly asking questions, I am able to accurately design and create what others want.
 						</div>
 					</div>
 				</div>

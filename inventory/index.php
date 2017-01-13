@@ -73,29 +73,20 @@
 			<div id="content_background">
 				<div id="content">
 					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-						This is my inventory where I keep my list of projects. Check them out. If you want to see some source code, visit my <a style="text-decoration: none" href="https://github.com/DJBorn">Github</a>
+						This is my inventory where I keep my list of projects. If you want to see some source code, visit my <a style="text-decoration: none" href="https://github.com/DJBorn">Github</a>
 					</div><br/>
 					<!-- Deluxema -->
 					<div class="boldpixel_font">
 						Deluxema
 					</div>
 					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-							Deluxema is a 2D game for desktop I made using Phaser and Javascript. Best performance on Google Chrome. 
+						Deluxema is a 2D game for desktop I made using Phaser and Javascript. I suggest you use Chrome. 
 						The game play is controlled through several different states that depend on user input. All classes are initially loaded
 						and the player is thrown into the Menu State, then once the user presses the enter key, it shifts into the animation
 						sequence that transitions into the game itself. Once the animation sequence completes, the player is then in the main game state
 						where they gain full control over the main character. This main game state dynamically changes as the game progresses; the more
 						points the player gets, the more enemies there are. Finally, once the player is overwhelmed, they are transitioned into the 
 						game over state where all variables are reset and they are taken back to the menu state.<br/>
-						<span style="padding-left: 50px"></span>
-							As for the artwork, I designed the sprites using Gimp and GraphicsGale, an open source image editing software.
-						The gameboy-like sound effects were created using Bfxr, a tool for creating sounds using the basic waveforms. The music was created
-						using FL Studio using Chiptune like sounds.<br/>
-						<span style="padding-left: 50px"></span>
-							There isn't much of a back story to it but it's about a guy named Ace defending this woman trapped 
-						inside a mirror. Go ahead and try it out!<br/>
 					</div><br/>
 					<div style="text-align: center;">
 						<?php
@@ -119,7 +110,7 @@
 							|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )
 							|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i',substr($useragent,0,4)))
 							{
-								print('<div class="pixel_font" style="color:red">Oh no! Looks like you\'re on mobile :/ <br/>Get on your desktop if you want to try Deluxema!</div>');
+								print('<div class="pixel_font" style="color:red">Hey, sorry but Deluxema isn\'t available on mobile.</div>');
 							}
 							else
 							{
@@ -128,37 +119,14 @@
 						?>
 					</div><br/>
 					<!-- Deluxema End -->
-					<!-- Deluxema Vanilla -->
-					<div class="boldpixel_font">
-						Deluxema Vanilla
-					</div>
-					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-							Deluxema was in development initially for the windows PC using C++ and the gaming engine Dark GDK. This was
-						the first gaming framework I was familiar with. The framework itself was limiting and I found it challenging to
-						handle most physics and animations without the use of predefined helper methods from the framework itself. I was
-						further discouraged to fully complete this version because I like the idea of someone being able to play the game
-						without needing to download any files. Instead I used what resources I already had
-						and continued development for the web, where it was open to everyone that can run a browser.<br/>
-						<span style="padding-left: 50px"></span>
-							Developing Deluxema Vanilla allowed me to program games with minimal resources and learn things like collision
-						detection, animations, game physics/mechanics and general game play design. I was also able to refine my Object Oriented
-						skills through this project.<br/>
-					</div><br/>
-					<!-- Deluxema Vanilla End -->
 					<!-- DreamScheme -->
 					<div class="boldpixel_font">
 						DreamScheme
 					</div>
 					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-							DreamScheme is a 2D game I created with a close friend in High School. It was created using C++ and
-						Dark GDK. This was the first time I was exposed to state programming, which introduced me to how many games
-						are programmed. It's a bit unrefined (we had high hopes back then) but it was the first graphical game I had ever 
-						created and I'm glad I was able to work on it.<br/>
-						<span style="padding-left: 50px"></span>
-							As for the artwork, we did several palette swaps for the heroes and monsters, and used sprites from the popular
-						Mario series by Nintendo to create custom levels.<br/>
+						DreamScheme is a 2D game I created with a friend in High School. It was created using C++ and
+						Dark GDK. This was the first time I got exposed to working with a graphical interface. Through this project I was able to obtain
+						skills in working with user interfaces and animations.<br/>
 					</div><br/>
 					<!-- Jssor Slider Begin -->
 					<div id="slider1_container" style="margin: auto;position: relative; top: 0px; left: 0px; width: 600px;
@@ -203,13 +171,10 @@
 						Hearts
 					</div>
 					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-							A text-based card game that consists of Human/AI players. This was created in my Object-Oriented Programming course along with a partner.
+						A text-based card game that consists of Human/AI players. This was created in my Object-Oriented Programming course with a partner.
 						We treated many of components of the game as objects; cards, a card pile which consists of cards, a deck which is a cardpile consisting of 
 						52 cards as well as 'deck-like' behaviour (card shuffling), and different types of players that hold card piles and handle their moves differently. 
 						The driver controls the main game by creating and using these objects.<br/>
-						<span style="padding-left: 50px"></span>
-							This was not exactly the most graphical game but it did give me the object-oriented technique when creating my future games, including Deluxema.<br/>
 					</div><br/>
 					<!-- Hearts End -->
 					<!-- XMario -->
@@ -217,13 +182,10 @@
 						XMario
 					</div>
 					<div class="pixel_font">
-						<span style="padding-left: 50px"></span>
-							This is a 2D platformer I made for my User Interface class. This was made using C++ and X Windows, a basic framework for the Unix systems for creating GUI interfaces.
+						This is a 2D platformer I made for my User Interface class. This was made using C++ and X Windows, a basic framework for the Unix systems for creating GUI interfaces.
 						I wanted to recreate the original 8-bit Mario game, so I designed my custom level by using a binary 2D array which determines if a block is there or not. I also
 						drew Mario using a 2D array with colour codes corresponding to each pixel. I made separate arrays for each frame in his running/death animation. Then I employed
 						simple collision detection, gravity, and a jump for the basic Mario-like platformer.<br/>
-						<span style="padding-left: 50px"></span>
-							This project allowed me to use a basic framework for drawing to create custom sprites and environments.<br/>
 					</div><br/>
 					<!-- Jssor Slider Begin -->
 					<div id="slider2_container" style="margin: auto;position: relative; top: 0px; left: 0px; width: 600px;
