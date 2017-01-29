@@ -32,8 +32,8 @@
 							I like to envision what I want to create and turn it into life by using what I know about programming and what
 							I have learned working with others.<br><br>
 
-							I believe one of the most important skills in software development is the ability to be empathetic. What the programmer
-							believes how a program works isn't important, but how others will be using it. By putting myself in the other people's shoes and
+							I believe one of the most important skills in software development is the ability to be empathetic. How a program
+							works to a developer is not as important as how it works to a user. By putting myself in other people's shoes and
 							constantly asking questions, I am able to accurately design and create what others want.
 						</div>
 					</div>
