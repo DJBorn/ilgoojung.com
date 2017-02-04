@@ -33,7 +33,8 @@
 							I believe one of the most important skills in software development is empathy. I put so much effort in trying to understand how
 							others feel and, in a technical sense, how they feel when using software. By putting myself in other people's shoes and
 							constantly asking questions, I am able to accurately design and create what others want. <br/><br/>
-							Currently I am looking to apply my skills at a company that will make people's lives better. Visit my other social media pages by
+							Currently I am looking to apply my skills at a company that will make people's lives better. I will be available in May of 2017 as I am taking
+							a single required online course for my degree completion during that period. Visit my other social media pages by
 							searching for treasure below, or contact me directly idjung4@gmail.com or 226-929-8580.
 						</div>
 					</div>

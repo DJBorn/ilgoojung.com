@@ -100,7 +100,7 @@
 								September 2011 to Present
 							</div>
 							<div class="petyka_font">
-								Raids Completed
+								Courses Completed
 								<table class="pixel_font raids">
 									<tr>
 										<td>User Interfaces</td>
