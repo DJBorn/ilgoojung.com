@@ -73,6 +73,7 @@
 			<div id="content_background">
 				<div id="content">
 					<div class="pixel_font">
+						This is a couple of my projects that I have worked on. If you want to see some source code, visit my <a style="text-decoration: none" href="https://github.com/DJBorn">Github</a>
 					</div><br/>
 					<!-- Deluxema -->
 					<div class="boldpixel_font">
