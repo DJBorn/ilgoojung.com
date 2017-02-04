@@ -73,7 +73,6 @@
 			<div id="content_background">
 				<div id="content">
 					<div class="pixel_font">
-						This is my inventory where I keep my list of projects. If you want to see some source code, visit my <a style="text-decoration: none" href="https://github.com/DJBorn">Github</a>
 					</div><br/>
 					<!-- Deluxema -->
 					<div class="boldpixel_font">
@@ -212,6 +211,15 @@
 					</div><br/>
 					<!-- Jssor Slider End -->
 					<!-- XMario End -->
+					<!-- Maze Generator -->
+					<div class="boldpixel_font">
+						Maze Generator
+					</div>
+					<div class="pixel_font">
+						A very brief project I worked on to test some maze generation algorithms. I used depth first search, Kruskal's and Prim's algorithm to generated mazes. Simple canvas drawing with JavaScript.<br/>
+						<a style="text-decoration: none" href="https://djborn.github.io/maze/">Try it</a>
+					</div><br/>
+					<!-- Maze Generator -->
 				</div>
 			</div>
 		</div>

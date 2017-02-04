@@ -26,15 +26,15 @@
 						<img src="images/me.png" style="float:right"/>
 							Hey, thanks for visiting my site! Here you can learn a bit about me. 
 							My name's Daniel Jung and I'm a Software Developer. I'm also a student at
-							the University of Waterloo pursuing a Bachelor of Computer Science graduating in April of 2017.<br/><br/>
-
-							My passion for programming comes from the enriching the experience people feel when they use software.
+							the University of Waterloo pursuing a Bachelor of Computer Science graduating in August of 2017.<br/><br/>
+							My passion for programming comes from the satisfaction of knowing that technology will help people's lives in one way or another.
 							I like to envision what I want to create and turn it into life by using what I know about programming and what
 							I have learned working with others.<br><br>
-
-							I believe one of the most important skills in software development is the ability to be empathetic. How a program
-							works to a developer is not as important as how it works to a user. By putting myself in other people's shoes and
-							constantly asking questions, I am able to accurately design and create what others want.
+							I believe one of the most important skills in software development is empathy. I put so much effort in trying to understand how
+							others feel and, in a technical sense, how they feel when using software. By putting myself in other people's shoes and
+							constantly asking questions, I am able to accurately design and create what others want. <br/><br/>
+							Currently I am looking to apply my skills at a company that will make people's lives better. Visit my other social media pages by
+							searching for treasure below, or contact me directly idjung4@gmail.com or 226-929-8580.
 						</div>
 					</div>
 				</div>

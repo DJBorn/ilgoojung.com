@@ -28,7 +28,7 @@ echo '">EXP</a>
 							<div class="navpointer"></div>
 							<a rel="/inventory" class="navlink';
 if ($input == "inventory") { echo ' active'; }
-echo '">Inventory</a>
+echo '">Projects</a>
             </div>
         </u1>
       </div>
